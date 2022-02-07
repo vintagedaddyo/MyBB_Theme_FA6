@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <theme name="FA6 1.0" version="1829">
 	<properties>
-		<templateset><![CDATA[2]]></templateset>
+		<templateset><![CDATA[31]]></templateset>
 		<editortheme><![CDATA[FA6.css]]></editortheme>
 		<imgdir><![CDATA[themes/FA6]]></imgdir>
 		<logo><![CDATA[themes/FA6/logo.png]]></logo>
@@ -11,10 +11,10 @@
 		<disporder><![CDATA[a:18:{s:10:"global.css";i:1;s:8:"css3.css";i:2;s:10:"usercp.css";i:3;s:9:"modcp.css";i:4;s:17:"thread_status.css";i:5;s:14:"showthread.css";i:6;s:16:"star_ratings.css";i:7;s:15:"color_black.css";i:8;s:14:"color_calm.css";i:9;s:14:"color_dawn.css";i:10;s:15:"color_earth.css";i:11;s:15:"color_flame.css";i:12;s:14:"color_leaf.css";i:13;s:15:"color_night.css";i:14;s:13:"color_sun.css";i:15;s:18:"color_twilight.css";i:16;s:15:"color_water.css";i:17;s:17:"gidpostborder.css";i:18;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="color_sun.css" attachedto="sun" version="1829"><![CDATA[/*
+		<stylesheet name="gidpostborder.css" version="1829"><![CDATA[/*
  * MyBB: FA6 Frontend Theme 
  *
- * File: color_sun.css
+ * File: gidpostborder.css
  * 
  * Author: Vintagedaddyo
  *
@@ -24,2794 +24,95 @@
  * 
  */
 
-/** Login **/
+/** Gid Postbody Border CSS  **/
 
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #202020;
-	-webkit-box-shadow: inset 0 1px 1px rgb(32,32,32), 0 0 8px rgba(32,32,32, 0.8);
-	box-shadow: inset 0 1px 1px rgba(32,32,32, 0.8), 0 0 8px rgba(32,32,32, 0.8);
-}
-
-input.login {
-	border: 5px solid #202020;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #202020;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #202020;
-}
-
-i.printer {
-	color: #555;
-}
-
-i.sendto {
-	color: #555;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #555;
-}
-
-input[type=checkbox]:checked:before {
-    color: #555;
-}
-
-
-.sharethread a:link {
-	color: #555 !important;
-}
-.sharethread a:visited {
-	color: #555 !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #ffdd4d !important;
-}
-
-.progress {
-	background: #ffdd4d url('themes/FA6/colors/sun_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #555 !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #555 !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #555;
-}
-
-#logo {
-	background: #ffdd4d url(themes/FA6/colors/sun_header.png) top left repeat-x;
-	border-bottom: 1px solid #111;
-}
-
-#header ul.menu li a {
-	color: #000;
-}
-
-#panel input.button {
-	background: #ffdd4d url(themes/FA6/colors/sun_thead.png) top left repeat-x;
-	color: #000;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #000;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #000;
-}
-
-.forum_on {
-color: #ffdd4d;
-}
-
-.subforum_minion {
-	color: #ffdd4d;
-}
-
-.thead {
-	background: #ffdd4d url(themes/FA6/colors/sun_thead.png) top left repeat-x;
-	border-bottom: 1px solid #ffaf1a;
-	color: #000;
-}
-
-.thead a:link,
-.thead a:visited,
-.thead a:hover,
-.thead a:active {
-	color: #000;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #ffaf1a;
-}
-
-.popup_menu .popup_item:hover {
-	background: #ffea9c;
-	color: #000;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #ffea9c;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #ffea9c;
-	color: #000;
-	border-color: #ffaf1a;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_twilight.css" attachedto="twilight" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_twilight.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #273a46;
-	-webkit-box-shadow: inset 0 1px 1px rgb(39,58,70), 0 0 8px rgba(39,58,70, 0.8);
-	box-shadow: inset 0 1px 1px rgba(39,58,70, 0.8), 0 0 8px rgba(39,58,70, 0.8);
-}
-
-input.login {
-	border: 5px solid #273a46;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #273a46;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #273a46;
-}
-
-i.printer {
-	color: #273a46;
-}
-
-i.sendto {
-	color: #273a46;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #273a46;
-}
-
-input[type=checkbox]:checked:before {
-    color: #273a46;
-}
-
-
-.sharethread a:link {
-	color: #426276 !important;
-}
-.sharethread a:visited {
-	color: #426276 !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #273a46 !important;
-}
-
-.progress {
-	background: #273a46 url('themes/FA6/colors/twilight_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #426276 !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #426276 !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #426276;
-}
-
-#logo {
-	background: #273a46 url(themes/FA6/colors/twilight_header.png) top left repeat-x;
-	border-bottom: 1px solid #1d2b34;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#panel input.button {
-	background: #273a46 url(themes/FA6/colors/twilight_thead.png) top left repeat-x;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #273a46;
-}
-
-.forum_on {
-color: #273a46;
-}
-
-.subforum_minion {
-	color: #273a46;
-}
-
-.thead {
-	background: #273a46 url(themes/FA6/colors/twilight_thead.png) top left repeat-x;
-	border-bottom: 1px solid #1d2b34;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #1d2b34;
-}
-
-.popup_menu .popup_item:hover {
-	background: #426276;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #426276;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #426276;
-	color: #fff;
-	border-color: #1d2b34;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_water.css" attachedto="water" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_water.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #1e6365;
-	-webkit-box-shadow: inset 0 1px 1px rgb(30,99,101), 0 0 8px rgba(30,99,101, 0.8);
-	box-shadow: inset 0 1px 1px rgba(30,99,101, 0.8), 0 0 8px rgba(30,99,101, 0.8);
-}
-
-input.login {
-	border: 5px solid #1e6365;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #1e6365;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #1e6365;
-}
-
-i.printer {
-	color: #1e6365;
-}
-
-i.sendto {
-	color: #1e6365;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #1e6365;
-}
-
-input[type=checkbox]:checked:before {
-    color: #1e6365;
-}
-
-.sharethread a:link {
-	color: #2d9595 !important;
-}
-.sharethread a:visited {
-	color: #2d9595 !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #1e6365 !important;
-}
-
-.progress {
-	background: #1e6365 url('themes/FA6/colors/water_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #2d9595 !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #2d9595 !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #2d9595;
-}
-
-#logo {
-	background: #1e6365 url(themes/FA6/colors/water_header.png) top left repeat-x;
-	border-bottom: 1px solid #133f41;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#panel input.button {
-	background: #1e6365 url(themes/FA6/colors/water_thead.png) top left repeat-x;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #1e6365;
-}
-
-.forum_on {
-color: #1e6365;
-}
-
-.subforum_minion {
-	color: #1e6365;
-}
-
-.thead {
-	background: #1e6365 url(themes/FA6/colors/water_thead.png) top left repeat-x;
-	border-bottom: 1px solid #133f41;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #133f41;
-}
-
-.popup_menu .popup_item:hover {
-	background: #2d9595;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #2d9595;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #2d9595;
-	color: #fff;
-	border-color: #133f41;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_flame.css" attachedto="flame" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_flame.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #750000;
-	-webkit-box-shadow: inset 0 1px 1px rgb(117,0,0), 0 0 8px rgba(117,0,0, 0.8);
-	box-shadow: inset 0 1px 1px rgba(117,0,0, 0.8), 0 0 8px rgba(117,0,0, 0.8);
-}
-
-input.login {
-	border: 5px solid #750000;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #750000;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #750000;
-}
-
-i.printer {
-	color: #750000;
-}
-
-i.sendto {
-	color: #750000;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #750000;
-}
-
-input[type=checkbox]:checked:before {
-    color: #750000;
-}
-
-
-.sharethread a:link {
-	color: #a20000 !important;
-}
-.sharethread a:visited {
-	color: #a20000 !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #750000  !important;
-}
-
-.progress {
-	background: #750000 url('themes/FA6/colors/flame_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #a20000 !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #a20000 !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #a20000;
-}
-
-#logo {
-	background: #750000 url(themes/FA6/colors/flame_header.png) top left repeat-x;
-	border-bottom: 1px solid #550000;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel input.button {
-	background: #750000 url(themes/FA6/colors/flame_thead.png) top left repeat-x;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #750000;
-}
-
-.forum_on {
-color: #750000;
-}
-
-.subforum_minion {
-	color: #750000;
-}
-
-.thead {
-	background: #750000 url(themes/FA6/colors/flame_thead.png) top left repeat-x;
-	border-bottom: 1px solid #550000;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #550000;
-}
-
-.popup_menu .popup_item:hover {
-	background: #a20000;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #a20000;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #a20000;
-	color: #fff;
-	border-color: #550000;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_leaf.css" attachedto="leaf" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_leaf.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #386e21;
-	-webkit-box-shadow: inset 0 1px 1px rgb(56,110,33), 0 0 8px rgba(56,110,33, 0.8);
-	box-shadow: inset 0 1px 1px rgba(56,110,33, 0.8), 0 0 8px rgba(56,110,33, 0.8);
-}
-
-input.login {
-	border: 5px solid #386e21;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #386e21;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #386e21
-}
-
-i.printer {
-	color: #386e21;
-}
-
-i.sendto {
-	color: #386e21;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #386e21;
-}
-
-input[type=checkbox]:checked:before {
-    color: #386e21;
-}
-
-.sharethread a:link {
-	color: #5aaf33 !important;
-}
-.sharethread a:visited {
-	color: #5aaf33 !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #386e21  !important;
-}
-
-.progress {
-	background: #386e21 url('themes/FA6/colors/leaf_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #5aaf33 !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #5aaf33 !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #5aaf33;
-}
-
-#logo {
-	background: #386e21 url(themes/FA6/colors/leaf_header.png) top left repeat-x;
-	border-bottom: 1px solid #234615;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#panel input.button {
-	background: #386e21 url(themes/FA6/colors/leaf_thead.png) top left repeat-x;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #386e21;
-}
-
-.forum_on {
-color: #386e21;
-}
-
-.subforum_minion {
-	color: #386e21;
-}
-
-.thead {
-	background: #386e21 url(themes/FA6/colors/leaf_thead.png) top left repeat-x;
-	border-bottom: 1px solid #234615;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #234615;
-}
-
-.popup_menu .popup_item:hover {
-	background: #5aaf33;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #5aaf33;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #5aaf33;
-	color: #fff;
-	border-color: #234615;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_night.css" attachedto="night" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_night.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #022338;
-	-webkit-box-shadow: inset 0 1px 1px rgb(32,32,32), 0 0 8px rgba(32,32,32, 0.8);
-	box-shadow: inset 0 1px 1px rgba(32,32,32, 0.8), 0 0 8px rgba(32,32,32, 0.8);
-}
-
-input.login {
-	border: 5px solid #022338;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #022338;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #022338;
-}
-
-i.printer {
-	color: #022338;
-}
-
-i.sendto {
-	color: #022338;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #022338;
-}
-
-input[type=checkbox]:checked:before {
-    color: #022338;
-}
-
-
-.sharethread a:link {
-	color: #023a61 !important;
-}
-.sharethread a:visited {
-	color: #023a61 !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #022338 !important;
-}
-
-.progress {
-	background: #022338 url('themes/FA6/colors/night_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #023a61 !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #023a61 !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #023a61;
-}
-
-#logo {
-	background: #022338 url(themes/FA6/colors/night_header.png) top left repeat-x;
-	border-bottom: 1px solid #011929;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#panel input.button {
-	background: #022338 url(themes/FA6/colors/night_thead.png) top left repeat-x;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #022338;
-}
-
-.forum_on {
-color: #022338;
-}
-
-.subforum_minion {
-	color: #022338;
-}
-
-.thead {
-	background: #022338 url(themes/FA6/colors/night_thead.png) top left repeat-x;
-	border-bottom: 1px solid #011929;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #011929;
-}
-
-.popup_menu .popup_item:hover {
-	background: #023a61;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #023a61;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #023a61;
-	color: #fff;
-	border-color: #011929;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_black.css" attachedto="black" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_black.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #202020;
-}
-
-input[type=checkbox]:checked:before {
-    color: #202020;
-}
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #202020;
-	-webkit-box-shadow: inset 0 1px 1px rgb(32,32,32), 0 0 8px rgba(32,32,32, 0.8);
-	box-shadow: inset 0 1px 1px rgba(32,32,32, 0.8), 0 0 8px rgba(32,32,32, 0.8);
-}
-
-input.login {
-	border: 5px solid #202020;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #202020;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #202020;
-}
-
-i.printer {
-	color: #555;
-}
-
-i.sendto {
-	color: #555;
-}
-
-.sharethread a:link {
-	color: #555 !important;
-}
-.sharethread a:visited {
-	color: #555 !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #202020 !important;
-}
-
-.progress {
-	background: #202020  url('themes/FA6/colors/black_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #555 !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #555 !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #555;
-}
-
-#logo {
-	background: #202020 url(themes/FA6/colors/black_header.png) top left repeat-x;
-	border-bottom: 1px solid #263c30;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#panel .upper {
-	background: #dcdbdc url(themes/FA6/colors/black_tcat.png) repeat-x;
-	color: #000;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #bbb;
-}
-
-#panel .upper a:link,
-#panel .upper a:visited,
-#panel .upper a:hover,
-#panel .upper a:active {
-	color: #000;
-}
-
-#panel input.textbox {
-	border-color: #ccc;
-}
-
-#panel input.button {
-	background: #202121 url(themes/FA6/colors/black_thead.png) top left repeat-x;
-	color: #fff;
-	border-color: #000;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #202121;
-}
-
-.forum_on {
-color: #202121;
-}
-
-.subforum_minion {
-	color: #202121;
-}
-
-.thead {
-	background: #202121 url(themes/FA6/colors/black_thead.png) top left repeat-x;
-	border-bottom: 1px solid #000;
-}
-
-.tcat {
-	background: #dcdbdc url(themes/FA6/colors/black_tcat.png) repeat-x;
-	color: #000000;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #bbb;
-}
-
-.tcat a:link,
-.tcat a:visited,
-.tcat a:hover,
-.tcat a:active {
-	color: #000000;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #111;
-}
-
-.popup_menu .popup_item:hover {
-	background: #333;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #333;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #333;
-	color: #fff;
-	border-color: #000;
-}
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_calm.css" attachedto="calm" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_calm.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #385947;
-	-webkit-box-shadow: inset 0 1px 1px rgb(56,89,71), 0 0 8px rgba(56,89,71, 0.8);
-	box-shadow: inset 0 1px 1px rgba(56,89,71, 0.8), 0 0 8px rgba(56,89,71, 0.8);
-}
-
-input.login {
-	border: 5px solid #385947;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #385947;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #385947;
-}
-
-i.printer {
-	color: #385947;
-}
-
-i.sendto {
-	color: #385947;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #48715b;
-}
-
-input[type=checkbox]:checked:before {
-    color: #48715b;
-}
-
-.sharethread a:link {
-	color: #48715b !important;
-}
-.sharethread a:visited {
-	color: #48715b !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-
-.progress_bar {
-	border: 1px solid #385947 !important;
-}
-
-.progress {
-	background: #385947  url('themes/FA6/colors/calm_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #48715b !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #48715b !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #48715b;
-}
-
-#logo {
-	background: #385947 url(themes/FA6/colors/calm_header.png) top left repeat-x;
-	border-bottom: 1px solid #263c30;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#panel input.button {
-	background: #385947 url(themes/FA6/colors/calm_thead.png) top left repeat-x;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #385947;
-}
-
-.forum_on {
-color: #385947;
-}
-
-.subforum_minion {
-	color: #385947;
-}
-
-.thead {
-	background: #385947 url(themes/FA6/colors/calm_thead.png) top left repeat-x;
-	color: #ffffff;
-	border-bottom: 1px solid #263c30;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #263c30;
-}
-
-.popup_menu .popup_item:hover {
-	background: #48715b;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #48715b;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #48715b;
-	color: #fff;
-	border-color: #263c30;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_dawn.css" attachedto="dawn" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_dawn.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #D56C2C;
-	-webkit-box-shadow: inset 0 1px 1px rgb(213,108,44), 0 0 8px rgba(213,108,44, 0.8);
-	box-shadow: inset 0 1px 1px rgba(213,108,44, 0.8), 0 0 8px rgba(213,108,44, 0.8);
-}
-
-input.login {
-	border: 5px solid #D56C2C;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #D56C2C;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #D56C2C;
-}
-
-i.printer {
-	color: #D56C2C;
-}
-
-i.sendto {
-	color: #D56C2C;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #d56c2c;
-}
-
-input[type=checkbox]:checked:before {
-    color: #d56c2c;
-}
-
-.sharethread a:link {
-	color: #d56c2c !important;
-}
-.sharethread a:visited {
-	color: #d56c2c !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #d56c2c !important;
-}
-
-.progress {
-	background: #d56c2c  url('themes/FA6/colors/dawn_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #d56c2c !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #d56c2c !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #d56c2c;
-}
-
-#logo {
-	background: #d56c2c url(themes/FA6/colors/dawn_header.png) top left repeat-x;
-	border-bottom: 1px solid #011929;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#panel input.button {
-	background: #d56c2c url(themes/FA6/colors/dawn_thead.png) top left repeat-x;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #000;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #d56c2c;
-}
-
-.forum_on {
-color: #d56c2c;
-}
-
-.subforum_minion {
-	color: #d56c2c;
-}
-
-.thead {
-	background: #d56c2c url(themes/FA6/colors/dawn_thead.png) top left repeat-x;
-	border-bottom: 1px solid #9a4e20;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #9a4e20;
-}
-
-.popup_menu .popup_item:hover {
-	background: #f2a555;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #f2a555;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #f2a555;
-	color: #fff;
-	border-color: #9a4e20;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="color_earth.css" attachedto="earth" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: color_earth.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Login **/
-
-input#quick_login_username:focus, input#quick_login_password:focus {
-	border-color: #4a3a2e;
-	-webkit-box-shadow: inset 0 1px 1px rgb(74,58,46), 0 0 8px rgba(74,58,46, 0.8);
-	box-shadow: inset 0 1px 1px rgba(74,58,46, 0.8), 0 0 8px rgba(74,58,46, 0.8);
-}
-
-input.login {
-	border: 5px solid #4a3a2e;
-    background: #ccc;
-}
-
-input.login:hover {
-	background: #4a3a2e;
-    border: 5px solid #ccc;
-	color: #fff;
-}
-
-i.lostpwd {
-   color: #4a3a2e;
-}
-
-i.printer {
-	color: #4a3a2e;
-}
-
-i.sendto {
-	color: #4a3a2e;
-}
-
-/** Checkboxes **/ 
-
-input[type=checkbox]:after, input[type=radio]:after {
-    color: #ddd;
-}
-
-input[type=radio]:checked:after {
-    color: #6d5545;
-}
-
-input[type=checkbox]:checked:before {
-    color: #6d5545;
-}
-
-.sharethread a:link {
-	color: #6d5545 !important;
-}
-.sharethread a:visited {
-	color: #6d5545 !important;
-}
-.sharethread a:hover,
-.sharethread a:active {
-	color: #333 !important;
-}
-
-.progress_bar {
-	border: 1px solid #4a3a2e !important;
-}
-
-.progress {
-	background: #4a3a2e  url('themes/FA6/colors/earth_thead.png') center repeat-x !important;
-}
-
-#backtop a:link {
-	color: #6d5545 !important;
-	text-decoration: none;
-}
-
-#backtop a:visited {
-	color: #6d5545 !important;
-	text-decoration: none;
-}
-
-#backtop a:hover, a:active {
-	color: #333 !important;
-	text-decoration: underline;
-}
-
-a:link,
-a:visited,
-a:hover,
-a:active {
-	color: #6d5545;
-}
-
-#logo {
-	background: #4a3a2e url(themes/FA6/colors/earth_header.png) top left repeat-x;
-	border-bottom: 1px solid #31261e;
-}
-
-#header ul.menu li a {
-	color: #fff;
-}
-
-#panel input.button {
-	background: #4a3b2f url(themes/FA6/colors/earth_thead.png) top left repeat-x;
-}
-
-#topmenu ul li a {
- border-bottom: 4px solid transparent;
-color: #fff;
-}
-
-#topmenu ul li a:hover {
- border-bottom: 4px solid #ff7500;
- color: #ff7500;
-}
-
-#topmenu ul li.selected a {
-color: #E6E6E6;
-border-bottom: 4px solid #ff7500;
-}
-
-#panel .lower ul.user_links li a:hover {
-   color: #4a3b2f;
-}
-
-.forum_on {
-color: #4a3b2f;
-}
-
-.subforum_minion {
-	color: #4a3b2f;
-}
-
-.thead {
-	background: #4a3b2f url(themes/FA6/colors/earth_thead.png) top left repeat-x;
-	border-bottom: 1px solid #31261e;
-}
-
-.thead input.textbox,
-.thead select {
-	border: 1px solid #31261e;
-}
-
-.popup_menu .popup_item:hover {
-	background: #6d5545;
-	color: #fff;
-}
-
-.tt-suggestion.tt-is-under-cursor {
-    background-color: #6d5545;
-	color: #fff;
-}
-
-.pagination a:hover {
-	background-color: #6d5545;
-	color: #fff;
-	border-color: #31261e;
-}
-
-
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: showthread.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-ul.thread_tools,
-ul.thread_tools li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-ul.thread_tools li {
-	padding-left: 0;
-	padding-bottom: 4px;
-	margin-bottom: 3px;
-	font-size: 11px;
-}
-
-ul.thread_tools li.printable:after {
-	font-family: "Font Awesome 6 Free";
-	font-size: 14px;
-	color: #2C2C2C;
-	content: "\f02f";
-	float: left;
-	position: relative;
-	z-index: 0;
-	padding-right: 5px;
-	font-weight: 900;
-}
-
-ul.thread_tools li.sendthread:after {
-	font-family: "Font Awesome 6 Free";
-	font-size: 14px;
-	color: #2C2C2C;
-	content: "\f0e0";
-	position: relative;
-	z-index: 0;
-	float: left;
-	padding-right: 5px;
-	font-weight: 900;
-}
-
-ul.thread_tools li.subscription_add:after {
-	font-family: "Font Awesome 6 Free";
-	font-size: 14px;
-	color: #2C2C2C;
-	content: "\f067";
-	position: relative;
-	z-index: 0;
-	float: left;
-	padding-right: 5px;
-	font-weight: 900;
-}
-
-ul.thread_tools li.subscription_remove:after {
-	font-family: "Font Awesome 6 Free";
-	font-size: 14px;
-	color: #2C2C2C;
-	content: "\f068";
-	position: relative;
-	z-index: 0;
-	float: left;
-	padding-right: 5px;
-	font-weight: 900;
-}
-
-ul.thread_tools li.poll:after {
-	font-family: "Font Awesome 6 Free";
-	font-size: 14px;
-	color: #2C2C2C;
-	content: "\f080";
-	position: relative;
-	z-index: 0;
-	float: left;
-	padding-right: 5px;
-	font-weight: 900;
-}
-
-.showthread_spinner {
-	margin: 0 auto;
-	display: block;
-	text-align: center;
-	padding: 20px;
-	width: 100%;
-}
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: star_rating.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-/** Pure CSS & FA 5 Star Rating By Johnny S & Vintagedaddyo **/
-
- .star_rating_container {
-     display: inline-block;
-     vertical-align: middle;
-     margin-right: 6px;
-     float: right;
-     margin-top: 6px;
-}
- .star_rating {
-     unicode-bidi: bidi-override;
-     direction: ltr;
-     list-style:none outside none;
-     margin: 0;
-     padding: 0;
-}
- .star_rating, .star_rating .current_rating {
-     vertical-align: middle;
-}
- td .star_rating {
-     margin-left: 0 auto;
-     width: 120px;
-     position: relative;
-     left: -13px;
-}
- .star_rating li {
-     margin-left: 5px;
-     float: right;
-     unicode-bidi: bidi-override;
-}
- .star_rating li a {
-     color: #b9b9b9;
-     text-decoration: none;
-}
- .star_rating li a {
-     font-size: 0px;
-}
- .star_rating li a:before {
-     font-family: "Font Awesome 6 Free";
-     font-weight: 900;
-     content: "\f005";
-     font-size: 14px;
-}
- .star_rating_notrated li:hover a, .star_rating_notrated li:hover ~ li a {
-     color: #2C2C2C !important;
-     cursor: pointer;
-}
- li.current_rating[style*="20"] ~ li a.one_star, li.current_rating[style*="40"] ~ li:nth-child(n+5) a, li.current_rating[style*="60"] ~ li:nth-child(n+4) a, li.current_rating[style*="80"] ~ li:nth-child(n+3) a, li[style*="100"]~ li:nth-child(n+2) a {
-     color: #eab71f;
-}
- .star_rating .current_rating {
-     unicode-bidi: bidi-override;
-     direction: rtl;
-     display: none;
-     float: left;
-     text-align: right;
-     position: relative;
-     top: 1px;
-     right: 3px;
-}
- .inline_rating {
-     float: left;
-     vertical-align: middle;
-     padding-right: 5px;
-}
- .star_rating_success, .success_message {
-     color: #00b200;
-     font-weight: bold;
-     font-size: 10px;
-     margin-bottom: 10px;
-}
- td[id*="rating_table"] {
-     text-align: center;
-     margin:0 auto;
-}
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: thread_status.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-.thread_status {
-    display: inline-block;
-}
-
-.thread_status.dot_folder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 8px;
-    color: #017DCC;
-    content: "\f111";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.dot_folder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.dot_hotfolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 8px;
-    color: #FA6A6A;
-    content: "\f111";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.dot_hotfolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.dot_hotclosefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #FA6A6A;
-    content: "f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.dot_hotclosefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.dot_closefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #FFD700;
-    content: "\f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.dot_closefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.dot_newfolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #FFD700;
-    content: "\f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.dot_newfolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.dot_newhotfolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 8px;
-    color: #FF0000;
-    content: "\f111";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.dot_newhotfolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.dot_newhotclosefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #FF0000;
-    content: "\f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.dot_newhotclosefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;
-}
-
-.thread_status.dot_newclosefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #FFD700;
-    content: "\f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.dot_newclosefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.folder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 8px;
-    color: #C6C6C6;
-    content: "\f111";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.folder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.hotfolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 8px;
-    color: #FA6A6A;
-    content: "\f111";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.hotfolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.hotclosefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #FA6A6A;
-    content: "\f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.hotclosefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.closefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #333;
-    content: "\f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.closefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.movefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 8px;
-    color: #FFD700;
-    content: "\f111";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.movefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.newfolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 8px;
-    color: #BDE1A0;
-    content: "\f111";
-    position: absolute;
-    z-index: 1; 
-    font-weight: 900;    
-}
-
-.thread_status.newfolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.newhotfolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 8px;
-    color: #FF0000;
-    content: "\f111";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.newhotfolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.newhotclosefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #FF0000;
-    content: "\f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.newhotclosefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-
-.thread_status.newclosefolder:before {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #AEAEAE;
-    content: "\f023";
-    position: absolute;
-    z-index: 1;
-    font-weight: 900;    
-}
-
-.thread_status.newclosefolder:after {
-    font-family: "Font Awesome 6 Free";
-    font-size: 13px;
-    color: #fff;
-    content: "\f15c";
-    position: relative;
-    z-index: 0;
-    background-color: #333;
-    border: #333 1px solid;
-    font-weight: 900;    
-}
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|private.php" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: usercp.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-.cp_options td:first-child{
-      width:230px;
-}
-
-.usercp_options{
-      margin:0;
-      padding:0;
-      list-style:none outside none;
-}
-
-.usercp_options>li{
-      margin:0;
-      padding:4px 0px;
-}
-
-.usercp_options>li>span{
-      display:inline-block;
-      text-align:right;
-}
-
-.usercp_nav_item{
-      display:block;
-}
-
-.usercp_nav_item a {
-	color:#0072BC;
-}
-
-.usercp_nav_item:before{
-      font-size:16px;
-      font-family:"Font Awesome 6 Free";
-	  font-weight: 900;
-      color: #2C2C2C;
-      width:28px;
-      margin-right:3px;
-      text-align:center;
-      display:inline-block;
-}
-
-.usercp_nav_composepm:before{
-      content:"\f3e5";
-}
-
-.usercp_nav_pmfolder:before{
-      content:"\f07c";
-}
-
-.usercp_nav_sub_pmfolder:before{
-      content:"\f07b";
-}
-
-.usercp_nav_trash_pmfolder:before{
-      content:"\f2ed";
-}
-
-.usercp_nav_pmtracking:before{
-      content:"\f024";
-}
-
-.usercp_nav_pmfolders:before{
-      content:"\f07b";
-}
-
-.usercp_nav_profile:before{
-      content:"\f007";
-}
-
-.usercp_nav_email:before{
-      content:"\f0e0";
-}
-
-.usercp_nav_password:before{
-      content:"\f084";
-}
-
-.usercp_nav_username:before{
-      content:"\f111";
-}
-
-.usercp_nav_editsig:before{
-      content:"\f303";
-}
-
-.usercp_nav_avatar:before{
-      content:"\f03e";
-}
-
-.usercp_nav_options:before{
-      content:"\f085";
-}
-
-.usercp_nav_usergroups:before{
-      content:"\f0c0";
-}
-
-.usercp_nav_editlists:before{
-      content:"\f004";
-}
-
-.usercp_nav_attachments:before{
-      content:"\f0c6";
-}
-
-.usercp_nav_drafts:before{
-      content:"\f303";
-}
-
-.usercp_nav_subscriptions:before{
-      content:"\f02e";
-}
-
-.usercp_nav_fsubscriptions:before{
-      content:"\f03a";
-}
-
-.usercp_nav_notepad:before{
-      content:"\f02d";
-}
-
-.usercp_nav_viewprofile:before{
-      content:"\f007";
-}
-
-.usercp_nav_home:before{
-      content:"\f015";
-}
-
-.usercp_nav_status:before{
-      content:"\f118";
-}
-
-.usercp_nav_myalerts:before{
-      content:"\f0f3";
-}
-
-.usercp_nav_myalerts_delete_all:before{
-      content:"\f058";
-}
-
-.usercp_nav_myalerts_delete_read:before{
-      content:"\f05c";
-}
-
-.usercp_nav_award:before{
-      content:"\f091";
-}
-
-.usercp_notepad{
-      width:99%;
-}
-
-#usercpalerts_e td[class^="trow"],#usercppms_e td[class^="trow"],#usercpprofile_e td[class^="trow"],#usercpmisc_e td[class^="trow"]{
-      border:none;
-      padding:0px;
-}
-
-.pagination{
-      padding:3px 0px;
-}
-
-.usercp_notepad{
-      width:99%;
-}
-
-.usercp_container{
-      margin:5px;
-      padding:8px;
-}
-
-td[class^=trow]{
-      border:none;
-}
-
-.pmspace {
-	float: right;
-	margin: -3px 5px;
-}
-
-.pmspace_container {
-	background: #fff;
-	border: 1px solid #ccc;
-	width: 100px;
-	display: inline-block;
-}
-
-.pmspace_used {
-	display: inline-block;
-	color: #fff;
-	margin: -1px;
-}
-
-.pmspace_used.low {
-	border: 1px solid #0c5a01;
-	background: #167203;
-}
-
-.pmspace_used.medium {
-	background: #ff862b;
-	border: 1px solid #d7611e;
-}
-
-.pmspace_used.high {
-	background: #e73c3c;
-	border: 1px solid #c00;
-}
-
-.pmspace_unused {
-	display: inline-block;
-}
-
-.pmspace_text {
-	padding: 1px 5px;
-	display: inline-block;
-}
-
-.new_pm {
-	font-weight: bold;
-}
-
-/** FA PM Icons **/
-
-.x_new_pm:before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f0e0";
-    font-size: 16px;
-}
+/** All if needed **/
 
-.x_old_pm:before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f2b6";
-    font-size: 16px;
+.gidpostborder {
+	margin-top: 6px;
+	margin-left: 4px;
+	margin-right: 4px;	
+	margin-bottom: 6px;
+    padding: 0;
 }
 
-.x_fw_pm:before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f2b6";
-    position: absolute;
-    font-size: 16px;
-}
-
-.x_fw_pm:after {
-    font-family: "Font Awesome 6 Free";
-    content: "\f30b";
-    position: relative;
-    top: 11px;
-    left: 5px;
-    color: #5b94c5;
-    font-size: 16px;
-	font-weight: 900;
-}
-
-.x_re_pm:before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f2b6";
-    position: absolute;
-    font-size: 16px;
-}
-
-.x_re_pm:after {
-    font-family: "Font Awesome 6 Free";
-    content: "\f30a";
-    position: relative;
-    top: 11px;
-    right: 5px;
-    color: #663096;
-    font-size: 16px;
-	font-weight: 900;
-}
-		
-		
-		
-		
-		
-		
-		
-		]]>
-		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1829"><![CDATA[/*
- * MyBB: FA6 Frontend Theme 
- *
- * File: modcp.css
- * 
- * Author: Vintagedaddyo
- *
- * MyBB Version: 1.8
- *
- * Theme Version: 1.0
- * 
- */
-
-.modcp_nav_item:before{
-      font-size:16px;
-      font-family:"Font Awesome 6 Free";
-	  font-weight: 900;
-      color: #2C2C2C;
-      width:28px;
-      margin-right:3px;
-      text-align:center;
-      display:inline-block;
-}
-
-.modcp_nav_home:before{
-      content:"\f015";
-}
-
-.modcp_nav_announcements:before {
-    content:"\f0f3"
-}
-
-.modcp_nav_reports:before {
-    content: "\f071";
-}
+/** Define by group id **/
 
-.modcp_nav_modqueue:before {
-    content:"\f02d"
-}
+/** Active **/
 
-.modcp_nav_modlogs:before {
-    content: "\f109";
+.gidpostborder_4 {
+/* define border gid 4 Admin*/
+	border: 1px solid #008000;
+	-webkit-box-shadow: inset 0 1px 1px rgb(0,128,0), 0 0 8px rgba(0,128,0, 0.8);
+	box-shadow: inset 0 1px 1px rgba(0,128,0, 0.8), 0 0 8px rgba(0,128,0, 0.8); 
 }
 
-.modcp_nav_editprofile:before {
-    content: "\f007";
+.gidpostborder_4:hover {
+/* define border gid 4 Admin */
+   border: 1px dashed #008000;
 }
 
-.modcp_nav_banning:before {
-    content: "\f023";
+.gidpostborder_6 {
+/* define border gid 6 Moderator */
+   border: 1px solid #CC00CC;
+	-webkit-box-shadow: inset 0 1px 1px rgb(204,0,204), 0 0 8px rgba(204,0,204, 0.8);
+	box-shadow: inset 0 1px 1px rgba(204,0,204, 0.8), 0 0 8px rgba(204,0,204, 0.8);
 }
 
-.modcp_nav_warninglogs:before {
-    content: "\f06e";
+.gidpostborder_6:hover {
+/* define border gid 6 Moderator */
+   border: 1px dashed #CC00CC;
 }
 
-.modcp_nav_ipsearch:before {
-    content: "\f002";
+.gidpostborder_3 {
+/* define border gid 3 Super Moderator */
+   border: 1px solid #CC00CC;
+	-webkit-box-shadow: inset 0 1px 1px rgb(204,0,204), 0 0 8px rgba(204,0,204, 0.8);
+	box-shadow: inset 0 1px 1px rgba(204,0,204, 0.8), 0 0 8px rgba(204,0,204, 0.8);
 }
 
-.modqueue_message {
-	overflow: auto;
-	max-height: 250px;
+.gidpostborder_3:hover {
+/* define border gid 3 Super Moderator */
+   border: 1px dashed #CC00CC;
 }
 
-.modqueue_controls {
-	width: 270px;
-	float: right;
-	text-align: center;
-	border: 1px solid #ccc;
-	background: #fff;
-	padding: 6px;
-	font-weight: bold;
+.gidpostborder_2 {
+/* define border gid 2 Registered */
+	border: 1px solid #0072BF;
+	-webkit-box-shadow: inset 0 1px 1px rgb(0,114,191), 0 0 8px rgba(0,114,191, 0.8);
+	box-shadow: inset 0 1px 1px rgba(0,114,191, 0.8), 0 0 8px rgba(0,114,191, 0.8);
 }
 
-.modqueue_controls label {
-	margin-right: 8px;
+.gidpostborder_2:hover {
+/* define border gid 2 Registered */
+   border: 1px dashed #0072BF; 
 }
 
-.label_radio_ignore,
-.label_radio_delete,
-.label_radio_approve {
-	font-weight: bold;
-}
+/** Post Hover **/
 
-.modqueue_meta {
-	color: #444;
-	font-size: 95%;
-	margin-bottom: 8px;
+.post.classic > .post_author {
+	border-top: 1px solid #ccc !important;
 }
 
-.modqueue_mass {
-	list-style: none;
-	margin: 0;
-	width: 150px;
-	padding: 0;
+.post > .post_author {
+	border-top: 1px solid #f5f5f5 !important;
 }
 
-.modqueue_mass li {
-	margin-bottom: 4px;
-	padding: 0;
+.post_content:hover, .post_controls:hover, .post_author:hover {
+	background: #efefef !important;
 }
 
-.modqueue_mass li a {
-	display: block;
-	padding: 4px;
-	border: 1px solid transparent;
+.post.classic > .post_content:hover {
+   background: #efefef !important;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;	
 }
 
-.modqueue_mass li a:hover {
-	background: #efefef;
-	border: 1px solid #ccc;
-	text-decoration: none;
+.post.classic > .post_content {
+   padding:  1% 1% 5px 1% !important;
 }
-		
-		
 		
 		
 		
@@ -2979,6 +280,7 @@ button, input.button, input.textbox, input.invalid_field, input.valid_field, sel
     -webkit-border-radius: 3px;
     border-radius: 3px
 }
+		
 		
 		
 		
@@ -5610,12 +2912,13 @@ div.jqi .jqisubstate .jqibuttons button{
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="gidpostborder.css" version="1829"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1829"><![CDATA[/*
  * MyBB: FA6 Frontend Theme 
  *
- * File: gidpostborder.css
+ * File: modcp.css
  * 
  * Author: Vintagedaddyo
  *
@@ -5625,95 +2928,2810 @@ div.jqi .jqisubstate .jqibuttons button{
  * 
  */
 
-/** Gid Postbody Border CSS  **/
-
-/** All if needed **/
-
-.gidpostborder {
-	margin-top: 6px;
-	margin-left: 4px;
-	margin-right: 4px;	
-	margin-bottom: 6px;
-    padding: 0;
+.modcp_nav_item:before{
+      font-size:16px;
+      font-family:"Font Awesome 6 Free";
+	  font-weight: 900;
+      color: #2C2C2C;
+      width:28px;
+      margin-right:3px;
+      text-align:center;
+      display:inline-block;
 }
 
-/** Define by group id **/
-
-/** Active **/
-
-.gidpostborder_4 {
-/* define border gid 4 Admin*/
-	border: 1px solid #008000;
-	-webkit-box-shadow: inset 0 1px 1px rgb(0,128,0), 0 0 8px rgba(0,128,0, 0.8);
-	box-shadow: inset 0 1px 1px rgba(0,128,0, 0.8), 0 0 8px rgba(0,128,0, 0.8); 
+.modcp_nav_home:before{
+      content:"\f015";
 }
 
-.gidpostborder_4:hover {
-/* define border gid 4 Admin */
-   border: 1px dashed #008000;
+.modcp_nav_announcements:before {
+    content:"\f0f3"
 }
 
-.gidpostborder_6 {
-/* define border gid 6 Moderator */
-   border: 1px solid #CC00CC;
-	-webkit-box-shadow: inset 0 1px 1px rgb(204,0,204), 0 0 8px rgba(204,0,204, 0.8);
-	box-shadow: inset 0 1px 1px rgba(204,0,204, 0.8), 0 0 8px rgba(204,0,204, 0.8);
+.modcp_nav_reports:before {
+    content: "\f071";
 }
 
-.gidpostborder_6:hover {
-/* define border gid 6 Moderator */
-   border: 1px dashed #CC00CC;
+.modcp_nav_modqueue:before {
+    content:"\f02d"
 }
 
-.gidpostborder_3 {
-/* define border gid 3 Super Moderator */
-   border: 1px solid #CC00CC;
-	-webkit-box-shadow: inset 0 1px 1px rgb(204,0,204), 0 0 8px rgba(204,0,204, 0.8);
-	box-shadow: inset 0 1px 1px rgba(204,0,204, 0.8), 0 0 8px rgba(204,0,204, 0.8);
+.modcp_nav_modlogs:before {
+    content: "\f109";
 }
 
-.gidpostborder_3:hover {
-/* define border gid 3 Super Moderator */
-   border: 1px dashed #CC00CC;
+.modcp_nav_editprofile:before {
+    content: "\f007";
 }
 
-.gidpostborder_2 {
-/* define border gid 2 Registered */
-	border: 1px solid #0072BF;
-	-webkit-box-shadow: inset 0 1px 1px rgb(0,114,191), 0 0 8px rgba(0,114,191, 0.8);
-	box-shadow: inset 0 1px 1px rgba(0,114,191, 0.8), 0 0 8px rgba(0,114,191, 0.8);
+.modcp_nav_banning:before {
+    content: "\f023";
 }
 
-.gidpostborder_2:hover {
-/* define border gid 2 Registered */
-   border: 1px dashed #0072BF; 
+.modcp_nav_warninglogs:before {
+    content: "\f06e";
 }
 
-/** Post Hover **/
-
-.post.classic > .post_author {
-	border-top: 1px solid #ccc !important;
+.modcp_nav_ipsearch:before {
+    content: "\f002";
 }
 
-.post > .post_author {
-	border-top: 1px solid #f5f5f5 !important;
+.modqueue_message {
+	overflow: auto;
+	max-height: 250px;
 }
 
-.post_content:hover, .post_controls:hover, .post_author:hover {
-	background: #efefef !important;
+.modqueue_controls {
+	width: 270px;
+	float: right;
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 6px;
+	font-weight: bold;
 }
 
-.post.classic > .post_content:hover {
-   background: #efefef !important;
-   border: 1px solid #ccc;
-   border-radius: 3px;
-   -moz-border-radius: 3px;
-   -webkit-border-radius: 3px;	
+.modqueue_controls label {
+	margin-right: 8px;
 }
 
-.post.classic > .post_content {
-   padding:  1% 1% 5px 1% !important;
+.label_radio_ignore,
+.label_radio_delete,
+.label_radio_approve {
+	font-weight: bold;
 }
+
+.modqueue_meta {
+	color: #444;
+	font-size: 95%;
+	margin-bottom: 8px;
+}
+
+.modqueue_mass {
+	list-style: none;
+	margin: 0;
+	width: 150px;
+	padding: 0;
+}
+
+.modqueue_mass li {
+	margin-bottom: 4px;
+	padding: 0;
+}
+
+.modqueue_mass li a {
+	display: block;
+	padding: 4px;
+	border: 1px solid transparent;
+}
+
+.modqueue_mass li a:hover {
+	background: #efefef;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="usercp.css" attachedto="usercp.php|private.php" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: usercp.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+.cp_options td:first-child{
+      width:230px;
+}
+
+.usercp_options{
+      margin:0;
+      padding:0;
+      list-style:none outside none;
+}
+
+.usercp_options>li{
+      margin:0;
+      padding:4px 0px;
+}
+
+.usercp_options>li>span{
+      display:inline-block;
+      text-align:right;
+}
+
+.usercp_nav_item{
+      display:block;
+}
+
+.usercp_nav_item a {
+	color:#0072BC;
+}
+
+.usercp_nav_item:before{
+      font-size:16px;
+      font-family:"Font Awesome 6 Free";
+	  font-weight: 900;
+      color: #2C2C2C;
+      width:28px;
+      margin-right:3px;
+      text-align:center;
+      display:inline-block;
+}
+
+.usercp_nav_composepm:before{
+      content:"\f3e5";
+}
+
+.usercp_nav_pmfolder:before{
+      content:"\f07c";
+}
+
+.usercp_nav_sub_pmfolder:before{
+      content:"\f07b";
+}
+
+.usercp_nav_trash_pmfolder:before{
+      content:"\f2ed";
+}
+
+.usercp_nav_pmtracking:before{
+      content:"\f024";
+}
+
+.usercp_nav_pmfolders:before{
+      content:"\f07b";
+}
+
+.usercp_nav_profile:before{
+      content:"\f007";
+}
+
+.usercp_nav_email:before{
+      content:"\f0e0";
+}
+
+.usercp_nav_password:before{
+      content:"\f084";
+}
+
+.usercp_nav_username:before{
+      content:"\f111";
+}
+
+.usercp_nav_editsig:before{
+      content:"\f303";
+}
+
+.usercp_nav_avatar:before{
+      content:"\f03e";
+}
+
+.usercp_nav_options:before{
+      content:"\f085";
+}
+
+.usercp_nav_usergroups:before{
+      content:"\f0c0";
+}
+
+.usercp_nav_editlists:before{
+      content:"\f004";
+}
+
+.usercp_nav_attachments:before{
+      content:"\f0c6";
+}
+
+.usercp_nav_drafts:before{
+      content:"\f303";
+}
+
+.usercp_nav_subscriptions:before{
+      content:"\f02e";
+}
+
+.usercp_nav_fsubscriptions:before{
+      content:"\f03a";
+}
+
+.usercp_nav_notepad:before{
+      content:"\f02d";
+}
+
+.usercp_nav_viewprofile:before{
+      content:"\f007";
+}
+
+.usercp_nav_home:before{
+      content:"\f015";
+}
+
+.usercp_nav_status:before{
+      content:"\f118";
+}
+
+.usercp_nav_myalerts:before{
+      content:"\f0f3";
+}
+
+.usercp_nav_myalerts_delete_all:before{
+      content:"\f058";
+}
+
+.usercp_nav_myalerts_delete_read:before{
+      content:"\f05c";
+}
+
+.usercp_nav_award:before{
+      content:"\f091";
+}
+
+.usercp_notepad{
+      width:99%;
+}
+
+#usercpalerts_e td[class^="trow"],#usercppms_e td[class^="trow"],#usercpprofile_e td[class^="trow"],#usercpmisc_e td[class^="trow"]{
+      border:none;
+      padding:0px;
+}
+
+.pagination{
+      padding:3px 0px;
+}
+
+.usercp_notepad{
+      width:99%;
+}
+
+.usercp_container{
+      margin:5px;
+      padding:8px;
+}
+
+td[class^=trow]{
+      border:none;
+}
+
+.pmspace {
+	float: right;
+	margin: -3px 5px;
+}
+
+.pmspace_container {
+	background: #fff;
+	border: 1px solid #ccc;
+	width: 100px;
+	display: inline-block;
+}
+
+.pmspace_used {
+	display: inline-block;
+	color: #fff;
+	margin: -1px;
+}
+
+.pmspace_used.low {
+	border: 1px solid #0c5a01;
+	background: #167203;
+}
+
+.pmspace_used.medium {
+	background: #ff862b;
+	border: 1px solid #d7611e;
+}
+
+.pmspace_used.high {
+	background: #e73c3c;
+	border: 1px solid #c00;
+}
+
+.pmspace_unused {
+	display: inline-block;
+}
+
+.pmspace_text {
+	padding: 1px 5px;
+	display: inline-block;
+}
+
+.new_pm {
+	font-weight: bold;
+}
+
+/** FA PM Icons **/
+
+.x_new_pm:before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f0e0";
+    font-size: 16px;
+}
+
+.x_old_pm:before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f2b6";
+    font-size: 16px;
+}
+
+.x_fw_pm:before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f2b6";
+    position: absolute;
+    font-size: 16px;
+}
+
+.x_fw_pm:after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f30b";
+    position: relative;
+    top: 11px;
+    left: 5px;
+    color: #5b94c5;
+    font-size: 16px;
+	font-weight: 900;
+}
+
+.x_re_pm:before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f2b6";
+    position: absolute;
+    font-size: 16px;
+}
+
+.x_re_pm:after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f30a";
+    position: relative;
+    top: 11px;
+    right: 5px;
+    color: #663096;
+    font-size: 16px;
+	font-weight: 900;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: thread_status.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+.thread_status {
+    display: inline-block;
+}
+
+.thread_status.dot_folder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 8px;
+    color: #017DCC;
+    content: "\f111";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.dot_folder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.dot_hotfolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 8px;
+    color: #FA6A6A;
+    content: "\f111";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.dot_hotfolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.dot_hotclosefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #FA6A6A;
+    content: "f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.dot_hotclosefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.dot_closefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #FFD700;
+    content: "\f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.dot_closefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.dot_newfolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #FFD700;
+    content: "\f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.dot_newfolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.dot_newhotfolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 8px;
+    color: #FF0000;
+    content: "\f111";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.dot_newhotfolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.dot_newhotclosefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #FF0000;
+    content: "\f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.dot_newhotclosefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;
+}
+
+.thread_status.dot_newclosefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #FFD700;
+    content: "\f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.dot_newclosefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.folder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 8px;
+    color: #C6C6C6;
+    content: "\f111";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.folder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.hotfolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 8px;
+    color: #FA6A6A;
+    content: "\f111";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.hotfolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.hotclosefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #FA6A6A;
+    content: "\f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.hotclosefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.closefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #333;
+    content: "\f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.closefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.movefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 8px;
+    color: #FFD700;
+    content: "\f111";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.movefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.newfolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 8px;
+    color: #BDE1A0;
+    content: "\f111";
+    position: absolute;
+    z-index: 1; 
+    font-weight: 900;    
+}
+
+.thread_status.newfolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.newhotfolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 8px;
+    color: #FF0000;
+    content: "\f111";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.newhotfolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.newhotclosefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #FF0000;
+    content: "\f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.newhotclosefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+
+.thread_status.newclosefolder:before {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #AEAEAE;
+    content: "\f023";
+    position: absolute;
+    z-index: 1;
+    font-weight: 900;    
+}
+
+.thread_status.newclosefolder:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 13px;
+    color: #fff;
+    content: "\f15c";
+    position: relative;
+    z-index: 0;
+    background-color: #333;
+    border: #333 1px solid;
+    font-weight: 900;    
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: star_rating.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Pure CSS & FA 5 Star Rating By Johnny S & Vintagedaddyo **/
+
+ .star_rating_container {
+     display: inline-block;
+     vertical-align: middle;
+     margin-right: 6px;
+     float: right;
+     margin-top: 6px;
+}
+ .star_rating {
+     unicode-bidi: bidi-override;
+     direction: ltr;
+     list-style:none outside none;
+     margin: 0;
+     padding: 0;
+}
+ .star_rating, .star_rating .current_rating {
+     vertical-align: middle;
+}
+ td .star_rating {
+     margin-left: 0 auto;
+     width: 120px;
+     position: relative;
+     left: -13px;
+}
+ .star_rating li {
+     margin-left: 5px;
+     float: right;
+     unicode-bidi: bidi-override;
+}
+ .star_rating li a {
+     color: #b9b9b9;
+     text-decoration: none;
+}
+ .star_rating li a {
+     font-size: 0px;
+}
+ .star_rating li a:before {
+     font-family: "Font Awesome 6 Free";
+     font-weight: 900;
+     content: "\f005";
+     font-size: 14px;
+}
+ .star_rating_notrated li:hover a, .star_rating_notrated li:hover ~ li a {
+     color: #2C2C2C !important;
+     cursor: pointer;
+}
+ li.current_rating[style*="20"] ~ li a.one_star, li.current_rating[style*="40"] ~ li:nth-child(n+5) a, li.current_rating[style*="60"] ~ li:nth-child(n+4) a, li.current_rating[style*="80"] ~ li:nth-child(n+3) a, li[style*="100"]~ li:nth-child(n+2) a {
+     color: #eab71f;
+}
+ .star_rating .current_rating {
+     unicode-bidi: bidi-override;
+     direction: rtl;
+     display: none;
+     float: left;
+     text-align: right;
+     position: relative;
+     top: 1px;
+     right: 3px;
+}
+ .inline_rating {
+     float: left;
+     vertical-align: middle;
+     padding-right: 5px;
+}
+ .star_rating_success, .success_message {
+     color: #00b200;
+     font-weight: bold;
+     font-size: 10px;
+     margin-bottom: 10px;
+}
+ td[id*="rating_table"] {
+     text-align: center;
+     margin:0 auto;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: showthread.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+ul.thread_tools,
+ul.thread_tools li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.thread_tools li {
+	padding-left: 0;
+	padding-bottom: 4px;
+	margin-bottom: 3px;
+	font-size: 11px;
+}
+
+ul.thread_tools li.printable:after {
+	font-family: "Font Awesome 6 Free";
+	font-size: 14px;
+	color: #2C2C2C;
+	content: "\f02f";
+	float: left;
+	position: relative;
+	z-index: 0;
+	padding-right: 5px;
+	font-weight: 900;
+}
+
+ul.thread_tools li.sendthread:after {
+	font-family: "Font Awesome 6 Free";
+	font-size: 14px;
+	color: #2C2C2C;
+	content: "\f0e0";
+	position: relative;
+	z-index: 0;
+	float: left;
+	padding-right: 5px;
+	font-weight: 900;
+}
+
+ul.thread_tools li.subscription_add:after {
+	font-family: "Font Awesome 6 Free";
+	font-size: 14px;
+	color: #2C2C2C;
+	content: "\f067";
+	position: relative;
+	z-index: 0;
+	float: left;
+	padding-right: 5px;
+	font-weight: 900;
+}
+
+ul.thread_tools li.subscription_remove:after {
+	font-family: "Font Awesome 6 Free";
+	font-size: 14px;
+	color: #2C2C2C;
+	content: "\f068";
+	position: relative;
+	z-index: 0;
+	float: left;
+	padding-right: 5px;
+	font-weight: 900;
+}
+
+ul.thread_tools li.poll:after {
+	font-family: "Font Awesome 6 Free";
+	font-size: 14px;
+	color: #2C2C2C;
+	content: "\f080";
+	position: relative;
+	z-index: 0;
+	float: left;
+	padding-right: 5px;
+	font-weight: 900;
+}
+
+.showthread_spinner {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_earth.css" attachedto="earth" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_earth.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #4a3a2e;
+	-webkit-box-shadow: inset 0 1px 1px rgb(74,58,46), 0 0 8px rgba(74,58,46, 0.8);
+	box-shadow: inset 0 1px 1px rgba(74,58,46, 0.8), 0 0 8px rgba(74,58,46, 0.8);
+}
+
+input.login {
+	border: 5px solid #4a3a2e;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #4a3a2e;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #4a3a2e;
+}
+
+i.printer {
+	color: #4a3a2e;
+}
+
+i.sendto {
+	color: #4a3a2e;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #6d5545;
+}
+
+input[type=checkbox]:checked:before {
+    color: #6d5545;
+}
+
+.sharethread a:link {
+	color: #6d5545 !important;
+}
+.sharethread a:visited {
+	color: #6d5545 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #4a3a2e !important;
+}
+
+.progress {
+	background: #4a3a2e  url('themes/FA6/colors/earth_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #6d5545 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #6d5545 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #6d5545;
+}
+
+#logo {
+	background: #4a3a2e url(themes/FA6/colors/earth_header.png) top left repeat-x;
+	border-bottom: 1px solid #31261e;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel input.button {
+	background: #4a3b2f url(themes/FA6/colors/earth_thead.png) top left repeat-x;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #4a3b2f;
+}
+
+.forum_on {
+color: #4a3b2f;
+}
+
+.subforum_minion {
+	color: #4a3b2f;
+}
+
+.thead {
+	background: #4a3b2f url(themes/FA6/colors/earth_thead.png) top left repeat-x;
+	border-bottom: 1px solid #31261e;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #31261e;
+}
+
+.popup_menu .popup_item:hover {
+	background: #6d5545;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #6d5545;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #6d5545;
+	color: #fff;
+	border-color: #31261e;
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_dawn.css" attachedto="dawn" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_dawn.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #D56C2C;
+	-webkit-box-shadow: inset 0 1px 1px rgb(213,108,44), 0 0 8px rgba(213,108,44, 0.8);
+	box-shadow: inset 0 1px 1px rgba(213,108,44, 0.8), 0 0 8px rgba(213,108,44, 0.8);
+}
+
+input.login {
+	border: 5px solid #D56C2C;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #D56C2C;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #D56C2C;
+}
+
+i.printer {
+	color: #D56C2C;
+}
+
+i.sendto {
+	color: #D56C2C;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #d56c2c;
+}
+
+input[type=checkbox]:checked:before {
+    color: #d56c2c;
+}
+
+.sharethread a:link {
+	color: #d56c2c !important;
+}
+.sharethread a:visited {
+	color: #d56c2c !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #d56c2c !important;
+}
+
+.progress {
+	background: #d56c2c  url('themes/FA6/colors/dawn_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #d56c2c !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #d56c2c !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #d56c2c;
+}
+
+#logo {
+	background: #d56c2c url(themes/FA6/colors/dawn_header.png) top left repeat-x;
+	border-bottom: 1px solid #011929;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel input.button {
+	background: #d56c2c url(themes/FA6/colors/dawn_thead.png) top left repeat-x;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #000;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #d56c2c;
+}
+
+.forum_on {
+color: #d56c2c;
+}
+
+.subforum_minion {
+	color: #d56c2c;
+}
+
+.thead {
+	background: #d56c2c url(themes/FA6/colors/dawn_thead.png) top left repeat-x;
+	border-bottom: 1px solid #9a4e20;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #9a4e20;
+}
+
+.popup_menu .popup_item:hover {
+	background: #f2a555;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #f2a555;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #f2a555;
+	color: #fff;
+	border-color: #9a4e20;
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_calm.css" attachedto="calm" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_calm.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #385947;
+	-webkit-box-shadow: inset 0 1px 1px rgb(56,89,71), 0 0 8px rgba(56,89,71, 0.8);
+	box-shadow: inset 0 1px 1px rgba(56,89,71, 0.8), 0 0 8px rgba(56,89,71, 0.8);
+}
+
+input.login {
+	border: 5px solid #385947;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #385947;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #385947;
+}
+
+i.printer {
+	color: #385947;
+}
+
+i.sendto {
+	color: #385947;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #48715b;
+}
+
+input[type=checkbox]:checked:before {
+    color: #48715b;
+}
+
+.sharethread a:link {
+	color: #48715b !important;
+}
+.sharethread a:visited {
+	color: #48715b !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+
+.progress_bar {
+	border: 1px solid #385947 !important;
+}
+
+.progress {
+	background: #385947  url('themes/FA6/colors/calm_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #48715b !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #48715b !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #48715b;
+}
+
+#logo {
+	background: #385947 url(themes/FA6/colors/calm_header.png) top left repeat-x;
+	border-bottom: 1px solid #263c30;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel input.button {
+	background: #385947 url(themes/FA6/colors/calm_thead.png) top left repeat-x;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #385947;
+}
+
+.forum_on {
+color: #385947;
+}
+
+.subforum_minion {
+	color: #385947;
+}
+
+.thead {
+	background: #385947 url(themes/FA6/colors/calm_thead.png) top left repeat-x;
+	color: #ffffff;
+	border-bottom: 1px solid #263c30;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #263c30;
+}
+
+.popup_menu .popup_item:hover {
+	background: #48715b;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #48715b;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #48715b;
+	color: #fff;
+	border-color: #263c30;
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_night.css" attachedto="night" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_night.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #022338;
+	-webkit-box-shadow: inset 0 1px 1px rgb(32,32,32), 0 0 8px rgba(32,32,32, 0.8);
+	box-shadow: inset 0 1px 1px rgba(32,32,32, 0.8), 0 0 8px rgba(32,32,32, 0.8);
+}
+
+input.login {
+	border: 5px solid #022338;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #022338;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #022338;
+}
+
+i.printer {
+	color: #022338;
+}
+
+i.sendto {
+	color: #022338;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #022338;
+}
+
+input[type=checkbox]:checked:before {
+    color: #022338;
+}
+
+
+.sharethread a:link {
+	color: #023a61 !important;
+}
+.sharethread a:visited {
+	color: #023a61 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #022338 !important;
+}
+
+.progress {
+	background: #022338 url('themes/FA6/colors/night_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #023a61 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #023a61 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #023a61;
+}
+
+#logo {
+	background: #022338 url(themes/FA6/colors/night_header.png) top left repeat-x;
+	border-bottom: 1px solid #011929;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel input.button {
+	background: #022338 url(themes/FA6/colors/night_thead.png) top left repeat-x;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #022338;
+}
+
+.forum_on {
+color: #022338;
+}
+
+.subforum_minion {
+	color: #022338;
+}
+
+.thead {
+	background: #022338 url(themes/FA6/colors/night_thead.png) top left repeat-x;
+	border-bottom: 1px solid #011929;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #011929;
+}
+
+.popup_menu .popup_item:hover {
+	background: #023a61;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #023a61;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #023a61;
+	color: #fff;
+	border-color: #011929;
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_black.css" attachedto="black" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_black.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #202020;
+}
+
+input[type=checkbox]:checked:before {
+    color: #202020;
+}
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #202020;
+	-webkit-box-shadow: inset 0 1px 1px rgb(32,32,32), 0 0 8px rgba(32,32,32, 0.8);
+	box-shadow: inset 0 1px 1px rgba(32,32,32, 0.8), 0 0 8px rgba(32,32,32, 0.8);
+}
+
+input.login {
+	border: 5px solid #202020;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #202020;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #202020;
+}
+
+i.printer {
+	color: #555;
+}
+
+i.sendto {
+	color: #555;
+}
+
+.sharethread a:link {
+	color: #555 !important;
+}
+.sharethread a:visited {
+	color: #555 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #202020 !important;
+}
+
+.progress {
+	background: #202020  url('themes/FA6/colors/black_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #555 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #555 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #555;
+}
+
+#logo {
+	background: #202020 url(themes/FA6/colors/black_header.png) top left repeat-x;
+	border-bottom: 1px solid #263c30;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel .upper {
+	background: #dcdbdc url(themes/FA6/colors/black_tcat.png) repeat-x;
+	color: #000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #bbb;
+}
+
+#panel .upper a:link,
+#panel .upper a:visited,
+#panel .upper a:hover,
+#panel .upper a:active {
+	color: #000;
+}
+
+#panel input.textbox {
+	border-color: #ccc;
+}
+
+#panel input.button {
+	background: #202121 url(themes/FA6/colors/black_thead.png) top left repeat-x;
+	color: #fff;
+	border-color: #000;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #202121;
+}
+
+.forum_on {
+color: #202121;
+}
+
+.subforum_minion {
+	color: #202121;
+}
+
+.thead {
+	background: #202121 url(themes/FA6/colors/black_thead.png) top left repeat-x;
+	border-bottom: 1px solid #000;
+}
+
+.tcat {
+	background: #dcdbdc url(themes/FA6/colors/black_tcat.png) repeat-x;
+	color: #000000;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #bbb;
+}
+
+.tcat a:link,
+.tcat a:visited,
+.tcat a:hover,
+.tcat a:active {
+	color: #000000;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #111;
+}
+
+.popup_menu .popup_item:hover {
+	background: #333;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #333;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #333;
+	color: #fff;
+	border-color: #000;
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_flame.css" attachedto="flame" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_flame.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #750000;
+	-webkit-box-shadow: inset 0 1px 1px rgb(117,0,0), 0 0 8px rgba(117,0,0, 0.8);
+	box-shadow: inset 0 1px 1px rgba(117,0,0, 0.8), 0 0 8px rgba(117,0,0, 0.8);
+}
+
+input.login {
+	border: 5px solid #750000;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #750000;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #750000;
+}
+
+i.printer {
+	color: #750000;
+}
+
+i.sendto {
+	color: #750000;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #750000;
+}
+
+input[type=checkbox]:checked:before {
+    color: #750000;
+}
+
+
+.sharethread a:link {
+	color: #a20000 !important;
+}
+.sharethread a:visited {
+	color: #a20000 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #750000  !important;
+}
+
+.progress {
+	background: #750000 url('themes/FA6/colors/flame_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #a20000 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #a20000 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #a20000;
+}
+
+#logo {
+	background: #750000 url(themes/FA6/colors/flame_header.png) top left repeat-x;
+	border-bottom: 1px solid #550000;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel input.button {
+	background: #750000 url(themes/FA6/colors/flame_thead.png) top left repeat-x;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #750000;
+}
+
+.forum_on {
+color: #750000;
+}
+
+.subforum_minion {
+	color: #750000;
+}
+
+.thead {
+	background: #750000 url(themes/FA6/colors/flame_thead.png) top left repeat-x;
+	border-bottom: 1px solid #550000;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #550000;
+}
+
+.popup_menu .popup_item:hover {
+	background: #a20000;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #a20000;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #a20000;
+	color: #fff;
+	border-color: #550000;
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_leaf.css" attachedto="leaf" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_leaf.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #386e21;
+	-webkit-box-shadow: inset 0 1px 1px rgb(56,110,33), 0 0 8px rgba(56,110,33, 0.8);
+	box-shadow: inset 0 1px 1px rgba(56,110,33, 0.8), 0 0 8px rgba(56,110,33, 0.8);
+}
+
+input.login {
+	border: 5px solid #386e21;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #386e21;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #386e21
+}
+
+i.printer {
+	color: #386e21;
+}
+
+i.sendto {
+	color: #386e21;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #386e21;
+}
+
+input[type=checkbox]:checked:before {
+    color: #386e21;
+}
+
+.sharethread a:link {
+	color: #5aaf33 !important;
+}
+.sharethread a:visited {
+	color: #5aaf33 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #386e21  !important;
+}
+
+.progress {
+	background: #386e21 url('themes/FA6/colors/leaf_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #5aaf33 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #5aaf33 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #5aaf33;
+}
+
+#logo {
+	background: #386e21 url(themes/FA6/colors/leaf_header.png) top left repeat-x;
+	border-bottom: 1px solid #234615;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel input.button {
+	background: #386e21 url(themes/FA6/colors/leaf_thead.png) top left repeat-x;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #386e21;
+}
+
+.forum_on {
+color: #386e21;
+}
+
+.subforum_minion {
+	color: #386e21;
+}
+
+.thead {
+	background: #386e21 url(themes/FA6/colors/leaf_thead.png) top left repeat-x;
+	border-bottom: 1px solid #234615;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #234615;
+}
+
+.popup_menu .popup_item:hover {
+	background: #5aaf33;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #5aaf33;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #5aaf33;
+	color: #fff;
+	border-color: #234615;
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_sun.css" attachedto="sun" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_sun.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #202020;
+	-webkit-box-shadow: inset 0 1px 1px rgb(32,32,32), 0 0 8px rgba(32,32,32, 0.8);
+	box-shadow: inset 0 1px 1px rgba(32,32,32, 0.8), 0 0 8px rgba(32,32,32, 0.8);
+}
+
+input.login {
+	border: 5px solid #202020;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #202020;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #202020;
+}
+
+i.printer {
+	color: #555;
+}
+
+i.sendto {
+	color: #555;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #555;
+}
+
+input[type=checkbox]:checked:before {
+    color: #555;
+}
+
+
+.sharethread a:link {
+	color: #555 !important;
+}
+.sharethread a:visited {
+	color: #555 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #ffdd4d !important;
+}
+
+.progress {
+	background: #ffdd4d url('themes/FA6/colors/sun_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #555 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #555 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #555;
+}
+
+#logo {
+	background: #ffdd4d url(themes/FA6/colors/sun_header.png) top left repeat-x;
+	border-bottom: 1px solid #111;
+}
+
+#header ul.menu li a {
+	color: #000;
+}
+
+#panel input.button {
+	background: #ffdd4d url(themes/FA6/colors/sun_thead.png) top left repeat-x;
+	color: #000;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #000;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #000;
+}
+
+.forum_on {
+color: #ffdd4d;
+}
+
+.subforum_minion {
+	color: #ffdd4d;
+}
+
+.thead {
+	background: #ffdd4d url(themes/FA6/colors/sun_thead.png) top left repeat-x;
+	border-bottom: 1px solid #ffaf1a;
+	color: #000;
+}
+
+.thead a:link,
+.thead a:visited,
+.thead a:hover,
+.thead a:active {
+	color: #000;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #ffaf1a;
+}
+
+.popup_menu .popup_item:hover {
+	background: #ffea9c;
+	color: #000;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #ffea9c;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #ffea9c;
+	color: #000;
+	border-color: #ffaf1a;
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_twilight.css" attachedto="twilight" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_twilight.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #273a46;
+	-webkit-box-shadow: inset 0 1px 1px rgb(39,58,70), 0 0 8px rgba(39,58,70, 0.8);
+	box-shadow: inset 0 1px 1px rgba(39,58,70, 0.8), 0 0 8px rgba(39,58,70, 0.8);
+}
+
+input.login {
+	border: 5px solid #273a46;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #273a46;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #273a46;
+}
+
+i.printer {
+	color: #273a46;
+}
+
+i.sendto {
+	color: #273a46;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #273a46;
+}
+
+input[type=checkbox]:checked:before {
+    color: #273a46;
+}
+
+
+.sharethread a:link {
+	color: #426276 !important;
+}
+.sharethread a:visited {
+	color: #426276 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #273a46 !important;
+}
+
+.progress {
+	background: #273a46 url('themes/FA6/colors/twilight_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #426276 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #426276 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #426276;
+}
+
+#logo {
+	background: #273a46 url(themes/FA6/colors/twilight_header.png) top left repeat-x;
+	border-bottom: 1px solid #1d2b34;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel input.button {
+	background: #273a46 url(themes/FA6/colors/twilight_thead.png) top left repeat-x;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #273a46;
+}
+
+.forum_on {
+color: #273a46;
+}
+
+.subforum_minion {
+	color: #273a46;
+}
+
+.thead {
+	background: #273a46 url(themes/FA6/colors/twilight_thead.png) top left repeat-x;
+	border-bottom: 1px solid #1d2b34;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #1d2b34;
+}
+
+.popup_menu .popup_item:hover {
+	background: #426276;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #426276;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #426276;
+	color: #fff;
+	border-color: #1d2b34;
+}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="color_water.css" attachedto="water" version="1829"><![CDATA[/*
+ * MyBB: FA6 Frontend Theme 
+ *
+ * File: color_water.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+/** Login **/
+
+input#quick_login_username:focus, input#quick_login_password:focus {
+	border-color: #1e6365;
+	-webkit-box-shadow: inset 0 1px 1px rgb(30,99,101), 0 0 8px rgba(30,99,101, 0.8);
+	box-shadow: inset 0 1px 1px rgba(30,99,101, 0.8), 0 0 8px rgba(30,99,101, 0.8);
+}
+
+input.login {
+	border: 5px solid #1e6365;
+    background: #ccc;
+}
+
+input.login:hover {
+	background: #1e6365;
+    border: 5px solid #ccc;
+	color: #fff;
+}
+
+i.lostpwd {
+   color: #1e6365;
+}
+
+i.printer {
+	color: #1e6365;
+}
+
+i.sendto {
+	color: #1e6365;
+}
+
+/** Checkboxes **/ 
+
+input[type=checkbox]:after, input[type=radio]:after {
+    color: #ddd;
+}
+
+input[type=radio]:checked:after {
+    color: #1e6365;
+}
+
+input[type=checkbox]:checked:before {
+    color: #1e6365;
+}
+
+.sharethread a:link {
+	color: #2d9595 !important;
+}
+.sharethread a:visited {
+	color: #2d9595 !important;
+}
+.sharethread a:hover,
+.sharethread a:active {
+	color: #333 !important;
+}
+
+.progress_bar {
+	border: 1px solid #1e6365 !important;
+}
+
+.progress {
+	background: #1e6365 url('themes/FA6/colors/water_thead.png') center repeat-x !important;
+}
+
+#backtop a:link {
+	color: #2d9595 !important;
+	text-decoration: none;
+}
+
+#backtop a:visited {
+	color: #2d9595 !important;
+	text-decoration: none;
+}
+
+#backtop a:hover, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #2d9595;
+}
+
+#logo {
+	background: #1e6365 url(themes/FA6/colors/water_header.png) top left repeat-x;
+	border-bottom: 1px solid #133f41;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#panel input.button {
+	background: #1e6365 url(themes/FA6/colors/water_thead.png) top left repeat-x;
+}
+
+#topmenu ul li a {
+ border-bottom: 4px solid transparent;
+color: #fff;
+}
+
+#topmenu ul li a:hover {
+ border-bottom: 4px solid #ff7500;
+ color: #ff7500;
+}
+
+#topmenu ul li.selected a {
+color: #E6E6E6;
+border-bottom: 4px solid #ff7500;
+}
+
+#panel .lower ul.user_links li a:hover {
+   color: #1e6365;
+}
+
+.forum_on {
+color: #1e6365;
+}
+
+.subforum_minion {
+	color: #1e6365;
+}
+
+.thead {
+	background: #1e6365 url(themes/FA6/colors/water_thead.png) top left repeat-x;
+	border-bottom: 1px solid #133f41;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #133f41;
+}
+
+.popup_menu .popup_item:hover {
+	background: #2d9595;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #2d9595;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #2d9595;
+	color: #fff;
+	border-color: #133f41;
+}
+
+
+		
+		
+		
+		
 		
 		
 		
@@ -5793,6 +5811,693 @@ div.jqi .jqisubstate .jqibuttons button{
 {$footer}
 </body>
 </html>]]></template>
+		<template name="calendar_addevent" version="1829"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->calendar} - {$lang->add_event}</title>
+{$headerinclude}
+</head>
+<body>
+{$header}
+{$event_errors}
+<form action="calendar.php" method="post" name="input">
+	<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder clear">
+		<tr>
+			<td colspan="2" width="100%" class="thead"><strong>{$lang->add_event}</strong></td>
+		</tr>
+		<tr>
+			<td width="20%" class="trow1"><strong>{$lang->event_name}</strong></td>
+			<td class="trow1"><input type="text" class="textbox" size="50" name="name" maxlength="120" value="{$name}"/></td>
+		</tr>
+		{$calendar_select}
+		<tr>
+			<td class="trow2" style="vertical-align: top;"><strong>{$lang->event_date}</strong></td>
+			<td class="trow1">
+				<script type="text/javascript">
+				<!--
+					function toggleType()
+					{
+						if($("#type_single").prop("checked"))
+						{
+							$("#ranged_selects").hide();
+							$("#single_selects").show();
+						}
+						else
+						{
+							$("#single_selects").hide();
+							$("#ranged_selects").show();
+							toggleRepeats();
+						}
+					}
+
+					function toggleRepeats()
+					{
+						var repeats = $("#repeats").get(0).selectedIndex;
+						$(".repeats_type").each(function()
+						{
+							$(this).hide();
+						});
+						if($("#repeats_type_"+repeats).length > 0)
+						{
+							$("#repeats_type_"+repeats).show();
+						}
+					}
+				// -->
+				</script>
+				<dl style="margin-top: 0; margin-bottom: 0; width: 100%;">
+					<dt><input type="radio" name="type" value="single" {$type_single} id="type_single" onclick="toggleType();" /> <label for="type_single"><strong>{$lang->type_single}</strong></label></dt>
+					<dd style="margin-top: 4px;" id="single_selects">
+						<span class="select-wrap">
+						<select name="single_day">
+							{$single_days}
+						</select>
+						</span>
+						&nbsp;
+						<span class="select-wrap">
+						<select name="single_month">
+							<option value="1"{$single_month['1']}>{$lang->month_1}</option>
+							<option value="2"{$single_month['2']}>{$lang->month_2}</option>
+							<option value="3"{$single_month['3']}>{$lang->month_3}</option>
+							<option value="4"{$single_month['4']}>{$lang->month_4}</option>
+							<option value="5"{$single_month['5']}>{$lang->month_5}</option>
+							<option value="6"{$single_month['6']}>{$lang->month_6}</option>
+							<option value="7"{$single_month['7']}>{$lang->month_7}</option>
+							<option value="8"{$single_month['8']}>{$lang->month_8}</option>
+							<option value="9"{$single_month['9']}>{$lang->month_9}</option>
+							<option value="10"{$single_month['10']}>{$lang->month_10}</option>
+							<option value="11"{$single_month['11']}>{$lang->month_11}</option>
+							<option value="12"{$single_month['12']}>{$lang->month_12}</option>
+						</select>
+						</span>
+						&nbsp;
+						<span class="select-wrap">
+						<select name="single_year">
+							{$single_years}
+						</select>
+						</span>
+					</dd>
+					<dt><input type="radio" name="type" value="ranged" {$type_ranged} id="type_ranged" onclick="toggleType();" /> <label for="type_ranged"><strong>{$lang->type_ranged}</strong></label></dt>
+					<dd style="margin-top: 4px; width: 100%;" id="ranged_selects">
+						<table width="100%">
+							<tr>
+								<td class="smalltext" style="padding: 4px; text-align: right;">{$lang->start_time}</td>
+								<td style="padding: 4px;">
+									<span class="select-wrap">
+									<select name="start_day">
+										{$start_days}
+									</select>
+									</span>
+									<span class="select-wrap">
+									<select name="start_month">
+										<option value="1"{$start_month['1']}>{$lang->month_1}</option>
+										<option value="2"{$start_month['2']}>{$lang->month_2}</option>
+										<option value="3"{$start_month['3']}>{$lang->month_3}</option>
+										<option value="4"{$start_month['4']}>{$lang->month_4}</option>
+										<option value="5"{$start_month['5']}>{$lang->month_5}</option>
+										<option value="6"{$start_month['6']}>{$lang->month_6}</option>
+										<option value="7"{$start_month['7']}>{$lang->month_7}</option>
+										<option value="8"{$start_month['8']}>{$lang->month_8}</option>
+										<option value="9"{$start_month['9']}>{$lang->month_9}</option>
+										<option value="10"{$start_month['10']}>{$lang->month_10}</option>
+										<option value="11"{$start_month['11']}>{$lang->month_11}</option>
+										<option value="12"{$start_month['12']}>{$lang->month_12}</option>
+									</select>
+									</span>
+									<span class="select-wrap">
+									<select name="start_year">
+										{$start_years}
+									</select>
+									</span>
+									<span class="smalltext">&nbsp;&nbsp;&nbsp;{$lang->enter_time}</span>
+									<input type="text" class="textbox" name="start_time" value="{$start_time}" size="7" />
+								</td>
+							</tr>
+							<tr>
+								<td class="smalltext" style="padding: 4px; text-align: right;">{$lang->end_time}</td>
+								<td style="padding: 4px;">
+									<span class="select-wrap">
+									<select name="end_day">
+										{$end_days}
+									</select>
+									</span>
+									<span class="select-wrap">
+									<select name="end_month">
+										<option value="1"{$end_month['1']}>{$lang->month_1}</option>
+										<option value="2"{$end_month['2']}>{$lang->month_2}</option>
+										<option value="3"{$end_month['3']}>{$lang->month_3}</option>
+										<option value="4"{$end_month['4']}>{$lang->month_4}</option>
+										<option value="5"{$end_month['5']}>{$lang->month_5}</option>
+										<option value="6"{$end_month['6']}>{$lang->month_6}</option>
+										<option value="7"{$end_month['7']}>{$lang->month_7}</option>
+										<option value="8"{$end_month['8']}>{$lang->month_8}</option>
+										<option value="9"{$end_month['9']}>{$lang->month_9}</option>
+										<option value="10"{$end_month['10']}>{$lang->month_10}</option>
+										<option value="11"{$end_month['11']}>{$lang->month_11}</option>
+										<option value="12"{$end_month['12']}>{$lang->month_12}</option>
+									</select>
+									</span>
+									<span class="select-wrap">
+									<select name="end_year">
+										{$end_years}
+									</select>
+									</span>
+									<span class="smalltext">&nbsp;&nbsp;&nbsp;{$lang->enter_time}</span>
+									<input type="text" class="textbox" name="end_time" value="{$end_time}" size="7" />
+								</td>
+							</tr>
+							<tr>
+								<td class="smalltext" style="padding: 4px; text-align: right; vertical-align: top;">{$lang->timezone}</td>
+								<td style="padding: 4px;">
+									{$timezones}<br />
+									<label class="smalltext" style="display: block; padding-top: 4px;"><input type="checkbox" name="ignoretimezone" value="1" {$ignore_timezone} style="vertical-align: middle;" /> {$lang->ignore_timezone} </label>
+								</td>
+							</tr>
+							<tr>
+								<td class="smalltext" style="padding: 4px; text-align: right; vertical-align:top;">{$lang->repeats}</td>
+								<td class="smalltext" style="padding: 4px;">
+									<span class="select-wrap">
+									<select name="repeats" id="repeats" onchange="toggleRepeats();">
+										<option value="0">{$lang->does_not_repeat}</option>
+										<option value="1"{$repeats_sel[1]}>{$lang->repeats_daily}</option>
+										<option value="2"{$repeats_sel[2]}>{$lang->repeats_weekdays}</option>
+										<option value="3"{$repeats_sel[3]}>{$lang->repeats_weekly}</option>
+										<option value="4"{$repeats_sel[4]}>{$lang->repeats_monthly}</option>
+										<option value="5"{$repeats_sel[5]}>{$lang->repeats_yearly}</option>
+									</select>
+									</span>
+									<div class="repeats_type" id="repeats_type_1" style="padding: 4px;">
+										{$lang->repeats_every}
+										<input type="text" class="textbox" name="repeats_1_days" value="{$repeats_1_days}" size="2" /> {$lang->day_or_days}
+									</div>
+									<div class="repeats_type" id="repeats_type_3" style="padding: 4px;">
+										{$lang->repeats_every}
+										<input type="text" class="textbox" name="repeats_3_weeks" value="{$repeats_3_weeks}" size="2" /> {$lang->week_or_weeks_on}
+										<br />
+										<table style="padding: 4px;">
+											<tr>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[0]" value="1" {$repeats_3_days[0]} style="vertical-align: middle;" /> {$lang->sunday}</label></td>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[1]" value="1" {$repeats_3_days[1]} style="vertical-align: middle;" /> {$lang->monday}</label></td>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[2]" value="1" {$repeats_3_days[2]} style="vertical-align: middle;" /> {$lang->tuesday}</label></td>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[3]" value="1" {$repeats_3_days[3]} style="vertical-align: middle;" /> {$lang->wednesday}</label></td>
+											</tr>
+											<tr>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[4]" value="1" {$repeats_3_days[4]} style="vertical-align: middle;" /> {$lang->thursday}</label></td>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[5]" value="1" {$repeats_3_days[5]} style="vertical-align: middle;" /> {$lang->friday}</label></td>
+												<td style="padding: 2px;" class="smalltext" colspan="2"><label><input type="checkbox" name="repeats_3_days[6]" value="1" {$repeats_3_days[6]} style="vertical-align: middle;" /> {$lang->saturday}</label></td>
+											</tr>
+										</table>
+									</div>
+									<div class="repeats_type" id="repeats_type_4" style="padding: 4px;">
+										<div class="smalltext"><label>
+											<input type="radio" name="repeats_4_type" id="repeats_4_type_1" value="1" style="vertical-align: middle;" {$repeats_4_type[1]} />
+											{$lang->repeats_on_day}</label>
+											<input type="text" class="textbox" name="repeats_4_day" value="{$repeats_4_day}" onfocus="$('#repeats_4_type_1').prop('checked', true);" size="2" /> {$lang->of_every} <input type="text" class="textbox" name="repeats_4_months" value="{$repeats_4_months}" size="2" onfocus="$('#repeats_4_type_1').prop('checked', true);" /> {$lang->month_or_months}
+										</div>
+										<div class="smalltext" style="margin-top: 5px;"><label>
+											<input type="radio" name="repeats_4_type" id="repeats_4_type_2" value="2" style="vertical-align: middle;" {$repeats_4_type[2]} />
+											{$lang->repeats_on_the}</label>
+											<span class="select-wrap">
+											<select name="repeats_4_occurance" onfocus="$('#repeats_4_type_2').prop('checked', true);">
+												<option value="1"{$repeats_4_occurance[1]}>{$lang->first}</option>
+												<option value="2"{$repeats_4_occurance[2]}>{$lang->second}</option>
+												<option value="3"{$repeats_4_occurance[3]}>{$lang->third}</option>
+												<option value="4"{$repeats_4_occurance[4]}>{$lang->fourth}</option>
+												<option value="last"{$repeats_4_occurance['last']}>{$lang->last}</option>
+											</select>
+											</span>
+											<span class="select-wrap">
+											<select name="repeats_4_weekday" onfocus="$('#repeats_4_type_2').prop('checked', true);">
+												<option value="0"{$repeats_4_weekday[0]}>{$lang->sunday}</option>
+												<option value="1"{$repeats_4_weekday[1]}>{$lang->monday}</option>
+												<option value="2"{$repeats_4_weekday[2]}>{$lang->tuesday}</option>
+												<option value="3"{$repeats_4_weekday[3]}>{$lang->wednesday}</option>
+												<option value="4"{$repeats_4_weekday[4]}>{$lang->thursday}</option>
+												<option value="5"{$repeats_4_weekday[5]}>{$lang->friday}</option>
+												<option value="6"{$repeats_4_weekday[6]}>{$lang->saturday}</option>
+											</select>
+											</span>
+											{$lang->of_every}
+											<input type="text" class="textbox" name="repeats_4_months2" value="{$repeats_4_months2}" size="2" onfocus="$('#repeats_4_type_2').prop('checked', true);" /> {$lang->month_or_months}
+										</div>
+									</div>
+									<div class="repeats_type" id="repeats_type_5" style="padding: 4px;">
+										<div class="smalltext"><label>
+											<input type="radio" name="repeats_5_type" value="1" id="repeats_5_type_1" style="vertical-align: middle;" {$repeats_5_type[1]} />
+											{$lang->repeats_on}</label>
+											<input type="text" class="textbox" name="repeats_5_day" onfocus="$('#repeats_5_type_1').prop('checked', true);" value="{$repeats_5_day}" size="2" />
+											<span class="select-wrap">
+											<select name="repeats_5_month" onfocus="$('#repeats_5_type_1').prop('checked', true);" >
+												<option value="1"{$repeats_5_month['1']}>{$lang->month_1}</option>
+												<option value="2"{$repeats_5_month['2']}>{$lang->month_2}</option>
+												<option value="3"{$repeats_5_month['3']}>{$lang->month_3}</option>
+												<option value="4"{$repeats_5_month['4']}>{$lang->month_4}</option>
+												<option value="5"{$repeats_5_month['5']}>{$lang->month_5}</option>
+												<option value="6"{$repeats_5_month['6']}>{$lang->month_6}</option>
+												<option value="7"{$repeats_5_month['7']}>{$lang->month_7}</option>
+												<option value="8"{$repeats_5_month['8']}>{$lang->month_8}</option>
+												<option value="9"{$repeats_5_month['9']}>{$lang->month_9}</option>
+												<option value="10"{$repeats_5_month['10']}>{$lang->month_10}</option>
+												<option value="11"{$repeats_5_month['11']}>{$lang->month_11}</option>
+												<option value="12"{$repeats_5_month['12']}>{$lang->month_12}</option>
+											</select>
+											</span>
+											{$lang->every}
+											<input type="text" class="textbox" name="repeats_5_years" value="{$repeats_5_years}" onfocus="$('#repeats_5_type_1').prop('checked', true);" size="2" /> {$lang->year_or_years}
+										</div>
+										<div class="smalltext" style="margin-top: 5px;"><label>
+											<input type="radio" name="repeats_5_type" value="2" id="repeats_5_type_2" style="vertical-align: middle;" {$repeats_5_type[2]} />
+											{$lang->repeats_on_the}</label>
+											<span class="select-wrap">
+											<select name="repeats_5_occurance" onfocus="$('#repeats_5_type_2').prop('checked', true);" >
+												<option value="1"{$repeats_5_occurance[1]}>{$lang->first}</option>
+												<option value="2"{$repeats_5_occurance[2]}>{$lang->second}</option>
+												<option value="3"{$repeats_5_occurance[3]}>{$lang->third}</option>
+												<option value="4"{$repeats_5_occurance[4]}>{$lang->fourth}</option>
+												<option value="last"{$repeats_4_occurance['last']}>{$lang->last}</option>
+											</select>
+											</span>
+											<span class="select-wrap">
+											<select name="repeats_5_weekday" onfocus="$('#repeats_5_type_2').prop('checked', true);" >
+												<option value="0"{$repeats_5_weekday[0]}>{$lang->sunday}</option>
+												<option value="1"{$repeats_5_weekday[1]}>{$lang->monday}</option>
+												<option value="2"{$repeats_5_weekday[2]}>{$lang->tuesday}</option>
+												<option value="3"{$repeats_5_weekday[3]}>{$lang->wednesday}</option>
+												<option value="4"{$repeats_5_weekday[4]}>{$lang->thursday}</option>
+												<option value="5"{$repeats_5_weekday[5]}>{$lang->friday}</option>
+												<option value="6"{$repeats_5_weekday[6]}>{$lang->saturday}</option>
+											</select>
+											</span>
+											{$lang->of}
+											<span class="select-wrap">
+											<select name="repeats_5_month2" onfocus="$('#repeats_5_type_2').prop('checked', true);" >
+												<option value="1"{$repeats_5_month2['1']}>{$lang->month_1}</option>
+												<option value="2"{$repeats_5_month2['2']}>{$lang->month_2}</option>
+												<option value="3"{$repeats_5_month2['3']}>{$lang->month_3}</option>
+												<option value="4"{$repeats_5_month2['4']}>{$lang->month_4}</option>
+												<option value="5"{$repeats_5_month2['5']}>{$lang->month_5}</option>
+												<option value="6"{$repeats_5_month2['6']}>{$lang->month_6}</option>
+												<option value="7"{$repeats_5_month2['7']}>{$lang->month_7}</option>
+												<option value="8"{$repeats_5_month2['8']}>{$lang->month_8}</option>
+												<option value="9"{$repeats_5_month2['9']}>{$lang->month_9}</option>
+												<option value="10"{$repeats_5_month2['10']}>{$lang->month_10}</option>
+												<option value="11"{$repeats_5_month2['11']}>{$lang->month_11}</option>
+												<option value="12"{$repeats_5_month2['12']}>{$lang->month_12}</option>
+											</select>
+											</span>
+											{$lang->every}
+											<input type="text" class="textbox" name="repeats_5_years2" value="{$repeats_5_years}" size="2" onfocus="$('#repeats_5_type_2').prop('checked', true);" /> {$lang->year_or_years}
+										</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</dd>
+				</dl>
+				<script type="text/javascript">
+				<!--
+					toggleType();
+					toggleRepeats();
+				// -->
+				</script>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" width="20%" class="trow1"><strong>{$lang->event_details}</strong>{$smilieinserter}</td>
+			<td class="trow1"><textarea name="description" id="message" rows="20" cols="70">{$description}</textarea>
+			{$codebuttons}</td>
+		</tr>
+		<tr>
+			<td width="20%" class="trow2"><strong>{$lang->event_options}</strong></td>
+			<td class="trow2">
+				<input type="checkbox" class="checkbox" name="private" value="1"{$privatecheck} /><span class="smalltext">{$lang->private_option}</span><br />
+			</td>
+		</tr>
+	</table>
+	<br />
+	<input type="hidden" name="action" value="do_addevent" />
+	<div align="center"><input type="submit" class="button" value="{$lang->post_event}" /></div>
+</form>
+{$footer}
+</body>
+</html>]]></template>
+		<template name="calendar_editevent" version="1829"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->calendar} - {$lang->edit_event}</title>
+{$headerinclude}
+</head>
+<body>
+{$header}
+{$event_errors}
+<form action="calendar.php" method="post">
+	<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+		<tr>
+			<td class="thead" colspan="3"><strong>{$lang->delete_event}</strong></td>
+		</tr>
+		<tr>
+			<td class="trow1" style="white-space: nowrap"><input type="checkbox" class="checkbox" name="delete" value="1" tabindex="9" /> <strong>{$lang->delete_q}</strong></td>
+			<td class="trow1" width="100%">{$lang->delete_1}<br /><span class="smalltext">{$lang->delete_2}</span></td>
+			<td class="trow1"><input type="submit" class="button" name="submit" value="{$lang->delete_now}" tabindex="10" /></td>
+		</tr>
+	</table>
+	<input type="hidden" name="action" value="do_deleteevent" />
+	<input type="hidden" name="eid" value="{$event['eid']}" />
+</form>
+<br />
+<form action="calendar.php" method="post" name="input">
+	<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder clear">
+		<tr>
+			<td colspan="2" width="100%" class="thead"><strong>{$lang->edit_event}</strong></td>
+		</tr>
+		<tr>
+			<td width="20%" class="trow1"><strong>{$lang->event_name}</strong></td>
+			<td class="trow1"><input type="text" class="textbox" size="50" name="name" maxlength="120" value="{$name}"/></td>
+		</tr>
+		<tr>
+			<td class="trow2" style="vertical-align: top;"><strong>{$lang->event_date}</strong></td>
+			<td class="trow1">
+				<script type="text/javascript">
+				<!--
+					function toggleType()
+					{
+						if($("#type_single").prop("checked"))
+						{
+							$("#ranged_selects").hide();
+							$("#single_selects").show();
+						}
+						else
+						{
+							$("#single_selects").hide();
+							$("#ranged_selects").show();
+							toggleRepeats();
+						}
+					}
+
+					function toggleRepeats()
+					{
+						var repeats = $("#repeats").get(0).selectedIndex;
+						$(".repeats_type").each(function()
+						{
+							$(this).hide();
+						});
+						if($("#repeats_type_"+repeats).length > 0)
+						{
+							$("#repeats_type_"+repeats).show();
+						}
+					}
+				// -->
+				</script>
+				<dl style="margin-top: 0; margin-bottom: 0; width: 100%;">
+					<dt><input type="radio" name="type" value="single" {$type_single} id="type_single" onclick="toggleType();" /> <label for="type_single"><strong>{$lang->type_single}</strong></label></dt>
+					<dd style="margin-top: 4px;" id="single_selects">
+						<span class="select-wrap">
+						<select name="single_day">
+							{$single_days}
+						</select>
+						</span>
+						&nbsp;
+						<span class="select-wrap">
+						<select name="single_month">
+							<option value="1"{$single_month['1']}>{$lang->month_1}</option>
+							<option value="2"{$single_month['2']}>{$lang->month_2}</option>
+							<option value="3"{$single_month['3']}>{$lang->month_3}</option>
+							<option value="4"{$single_month['4']}>{$lang->month_4}</option>
+							<option value="5"{$single_month['5']}>{$lang->month_5}</option>
+							<option value="6"{$single_month['6']}>{$lang->month_6}</option>
+							<option value="7"{$single_month['7']}>{$lang->month_7}</option>
+							<option value="8"{$single_month['8']}>{$lang->month_8}</option>
+							<option value="9"{$single_month['9']}>{$lang->month_9}</option>
+							<option value="10"{$single_month['10']}>{$lang->month_10}</option>
+							<option value="11"{$single_month['11']}>{$lang->month_11}</option>
+							<option value="12"{$single_month['12']}>{$lang->month_12}</option>
+						</select>
+						</span>
+						&nbsp;
+						<span class="select-wrap">
+						<select name="single_year">
+							{$single_years}
+						</select>
+						</span>
+					</dd>
+					<dt><input type="radio" name="type" value="ranged" {$type_ranged} id="type_ranged" onclick="toggleType();" /> <label for="type_ranged"><strong>{$lang->type_ranged}</strong></label></dt>
+					<dd style="margin-top: 4px; width: 100%;" id="ranged_selects">
+						<table width="100%">
+							<tr>
+								<td class="smalltext" style="padding: 4px; text-align: right;">{$lang->start_time}</td>
+								<td style="padding: 4px;">
+									<span class="select-wrap">
+									<select name="start_day">
+										{$start_days}
+									</select>
+									</span>
+									<span class="select-wrap">
+									<select name="start_month">
+										<option value="1"{$start_month['1']}>{$lang->month_1}</option>
+										<option value="2"{$start_month['2']}>{$lang->month_2}</option>
+										<option value="3"{$start_month['3']}>{$lang->month_3}</option>
+										<option value="4"{$start_month['4']}>{$lang->month_4}</option>
+										<option value="5"{$start_month['5']}>{$lang->month_5}</option>
+										<option value="6"{$start_month['6']}>{$lang->month_6}</option>
+										<option value="7"{$start_month['7']}>{$lang->month_7}</option>
+										<option value="8"{$start_month['8']}>{$lang->month_8}</option>
+										<option value="9"{$start_month['9']}>{$lang->month_9}</option>
+										<option value="10"{$start_month['10']}>{$lang->month_10}</option>
+										<option value="11"{$start_month['11']}>{$lang->month_11}</option>
+										<option value="12"{$start_month['12']}>{$lang->month_12}</option>
+									</select>
+									</span>
+									<span class="select-wrap">
+									<select name="start_year">
+										{$start_years}
+									</select>
+									</span>
+									<span class="smalltext">&nbsp;&nbsp;&nbsp;{$lang->enter_time}</span>
+									<input type="text" class="textbox" name="start_time" value="{$start_time}" size="7" />
+								</td>
+							</tr>
+							<tr>
+								<td class="smalltext" style="padding: 4px; text-align: right;">{$lang->end_time}</td>
+								<td style="padding: 4px;">
+									<span class="select-wrap">
+									<select name="end_day">
+										{$end_days}
+									</select>
+									</span>
+									<span class="select-wrap">
+									<select name="end_month">
+										<option value="1"{$end_month['1']}>{$lang->month_1}</option>
+										<option value="2"{$end_month['2']}>{$lang->month_2}</option>
+										<option value="3"{$end_month['3']}>{$lang->month_3}</option>
+										<option value="4"{$end_month['4']}>{$lang->month_4}</option>
+										<option value="5"{$end_month['5']}>{$lang->month_5}</option>
+										<option value="6"{$end_month['6']}>{$lang->month_6}</option>
+										<option value="7"{$end_month['7']}>{$lang->month_7}</option>
+										<option value="8"{$end_month['8']}>{$lang->month_8}</option>
+										<option value="9"{$end_month['9']}>{$lang->month_9}</option>
+										<option value="10"{$end_month['10']}>{$lang->month_10}</option>
+										<option value="11"{$end_month['11']}>{$lang->month_11}</option>
+										<option value="12"{$end_month['12']}>{$lang->month_12}</option>
+									</select>
+									</span>
+									<span class="select-wrap">
+									<select name="end_year">
+										{$end_years}
+									</select>
+									</span>
+									<span class="smalltext">&nbsp;&nbsp;&nbsp;{$lang->enter_time}</span>
+									<input type="text" class="textbox" name="end_time" value="{$end_time}" size="7" />
+								</td>
+							</tr>
+							<tr>
+								<td class="smalltext" style="padding: 4px; text-align: right; vertical-align: top;">{$lang->timezone}</td>
+								<td style="padding: 4px;">
+									{$timezones}<br />
+									<label class="smalltext" style="display: block; padding-top: 4px;"><input type="checkbox" name="ignoretimezone" value="1" {$ignore_timezone} style="vertical-align: middle;" /> {$lang->ignore_timezone}</label>
+								</td>
+							</tr>
+							<tr>
+								<td class="smalltext" style="padding: 4px; text-align: right; vertical-align:top;">{$lang->repeats}</td>
+								<td class="smalltext" style="padding: 4px;">
+									<span class="select-wrap">
+									<select name="repeats" id="repeats" onchange="toggleRepeats();">
+										<option value="0">{$lang->does_not_repeat}</option>
+										<option value="1"{$repeats_sel[1]}>{$lang->repeats_daily}</option>
+										<option value="2"{$repeats_sel[2]}>{$lang->repeats_weekdays}</option>
+										<option value="3"{$repeats_sel[3]}>{$lang->repeats_weekly}</option>
+										<option value="4"{$repeats_sel[4]}>{$lang->repeats_monthly}</option>
+										<option value="5"{$repeats_sel[5]}>{$lang->repeats_yearly}</option>
+									</select>
+									</span>
+									<div class="repeats_type" id="repeats_type_1" style="padding: 4px;">
+										{$lang->repeats_every}
+										<input type="text" class="textbox" name="repeats_1_days" value="{$repeats_1_days}" size="2" /> {$lang->day_or_days}
+									</div>
+									<div class="repeats_type" id="repeats_type_3" style="padding: 4px;">
+										{$lang->repeats_every}
+										<input type="text" class="textbox" name="repeats_3_weeks" value="{$repeats_3_weeks}" size="2" /> {$lang->week_or_weeks_on}
+										<br />
+										<table style="padding: 4px;">
+											<tr>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[0]" value="1" {$repeats_3_days[0]} style="vertical-align: middle;" /> {$lang->sunday}</label></td>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[1]" value="1" {$repeats_3_days[1]} style="vertical-align: middle;" /> {$lang->monday}</label></td>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[2]" value="1" {$repeats_3_days[2]} style="vertical-align: middle;" /> {$lang->tuesday}</label></td>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[3]" value="1" {$repeats_3_days[3]} style="vertical-align: middle;" /> {$lang->wednesday}</label></td>
+											</tr>
+											<tr>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[4]" value="1" {$repeats_3_days[4]} style="vertical-align: middle;" /> {$lang->thursday}</label></td>
+												<td style="padding: 2px;" class="smalltext"><label><input type="checkbox" name="repeats_3_days[5]" value="1" {$repeats_3_days[5]} style="vertical-align: middle;" /> {$lang->friday}</label></td>
+												<td style="padding: 2px;" class="smalltext" colspan="2"><label><input type="checkbox" name="repeats_3_days[6]" value="1" {$repeats_3_days[6]} style="vertical-align: middle;" /> {$lang->saturday}</label></td>
+											</tr>
+										</table>
+									</div>
+									<div class="repeats_type" id="repeats_type_4" style="padding: 4px;">
+										<div class="smalltext"><label>
+											<input type="radio" name="repeats_4_type" id="repeats_4_type_1" value="1" style="vertical-align: middle;" {$repeats_4_type[1]} />
+											{$lang->repeats_on_day}</label>
+											<input type="text" class="textbox" name="repeats_4_day" value="{$repeats_4_day}" onfocus="$('repeats_4_type_1').checked=true;" size="2" /> {$lang->of_every} <input type="text" class="textbox" name="repeats_4_months" value="{$repeats_4_months}" size="2" onfocus="$('repeats_4_type_1').checked=true;" /> {$lang->month_or_months}
+										</div>
+										<div class="smalltext" style="margin-top: 5px;"><label>
+											<input type="radio" name="repeats_4_type" id="repeats_4_type_2" value="2" style="vertical-align: middle;" {$repeats_4_type[2]} />
+											{$lang->repeats_on_the}</label>
+											<span class="select-wrap">
+											<select name="repeats_4_occurance" onfocus="$('repeats_4_type_2').checked=true;">
+												<option value="1"{$repeats_4_occurance[1]}>{$lang->first}</option>
+												<option value="2"{$repeats_4_occurance[2]}>{$lang->second}</option>
+												<option value="3"{$repeats_4_occurance[3]}>{$lang->third}</option>
+												<option value="4"{$repeats_4_occurance[4]}>{$lang->fourth}</option>
+												<option value="last"{$repeats_4_occurance['last']}>{$lang->last}</option>
+											</select>
+											</span>
+											<span class="select-wrap">
+											<select name="repeats_4_weekday" onfocus="$('repeats_4_type_2').checked=true;">
+												<option value="0"{$repeats_4_weekday[0]}>{$lang->sunday}</option>
+												<option value="1"{$repeats_4_weekday[1]}>{$lang->monday}</option>
+												<option value="2"{$repeats_4_weekday[2]}>{$lang->tuesday}</option>
+												<option value="3"{$repeats_4_weekday[3]}>{$lang->wednesday}</option>
+												<option value="4"{$repeats_4_weekday[4]}>{$lang->thursday}</option>
+												<option value="5"{$repeats_4_weekday[5]}>{$lang->friday}</option>
+												<option value="6"{$repeats_4_weekday[6]}>{$lang->saturday}</option>
+											</select>
+											</span>
+											{$lang->of_every}
+											<input type="text" class="textbox" name="repeats_4_months2" value="{$repeats_4_months2}" size="2" onfocus="$('repeats_4_type_2').checked=true;" /> {$lang->month_or_months}
+										</div>
+									</div>
+									<div class="repeats_type" id="repeats_type_5" style="padding: 4px;">
+										<div class="smalltext"><label>
+											<input type="radio" name="repeats_5_type" value="1" id="repeats_5_type_1" style="vertical-align: middle;" {$repeats_5_type[1]} />
+											{$lang->repeats_on}</label>
+											<input type="text" class="textbox" name="repeats_5_day" onfocus="$('repeats_5_type_1').checked=true;" value="{$repeats_5_day}" size="2" />
+											<span class="select-wrap">
+											<select name="repeats_5_month" onfocus="$('repeats_5_type_1').checked=true;" >
+												<option value="1"{$repeats_5_month['1']}>{$lang->month_1}</option>
+												<option value="2"{$repeats_5_month['2']}>{$lang->month_2}</option>
+												<option value="3"{$repeats_5_month['3']}>{$lang->month_3}</option>
+												<option value="4"{$repeats_5_month['4']}>{$lang->month_4}</option>
+												<option value="5"{$repeats_5_month['5']}>{$lang->month_5}</option>
+												<option value="6"{$repeats_5_month['6']}>{$lang->month_6}</option>
+												<option value="7"{$repeats_5_month['7']}>{$lang->month_7}</option>
+												<option value="8"{$repeats_5_month['8']}>{$lang->month_8}</option>
+												<option value="9"{$repeats_5_month['9']}>{$lang->month_9}</option>
+												<option value="10"{$repeats_5_month['10']}>{$lang->month_10}</option>
+												<option value="11"{$repeats_5_month['11']}>{$lang->month_11}</option>
+												<option value="12"{$repeats_5_month['12']}>{$lang->month_12}</option>
+											</select>
+											</span>
+											{$lang->every}
+											<input type="text" class="textbox" name="repeats_5_years" value="{$repeats_5_years}" onfocus="$('repeats_5_type_1').checked=true;" size="2" /> {$lang->year_or_years}
+										</div>
+										<div class="smalltext" style="margin-top: 5px;"><label>
+											<input type="radio" name="repeats_5_type" value="2" id="repeats_5_type_2" style="vertical-align: middle;" {$repeats_5_type[2]} />
+											{$lang->repeats_on_the}</label>
+											<span class="select-wrap">
+											<select name="repeats_5_occurance" onfocus="$('repeats_5_type_2').checked=true;" >
+												<option value="1"{$repeats_5_occurance[1]}>{$lang->first}</option>
+												<option value="2"{$repeats_5_occurance[2]}>{$lang->second}</option>
+												<option value="3"{$repeats_5_occurance[3]}>{$lang->third}</option>
+												<option value="4"{$repeats_5_occurance[4]}>{$lang->fourth}</option>
+												<option value="last"{$repeats_4_occurance['last']}>{$lang->last}</option>
+											</select>
+											</span>
+											<span class="select-wrap">
+											<select name="repeats_5_weekday" onfocus="$('repeats_5_type_2').checked=true;" >
+												<option value="0"{$repeats_5_weekday[0]}>{$lang->sunday}</option>
+												<option value="1"{$repeats_5_weekday[1]}>{$lang->monday}</option>
+												<option value="2"{$repeats_5_weekday[2]}>{$lang->tuesday}</option>
+												<option value="3"{$repeats_5_weekday[3]}>{$lang->wednesday}</option>
+												<option value="4"{$repeats_5_weekday[4]}>{$lang->thursday}</option>
+												<option value="5"{$repeats_5_weekday[5]}>{$lang->friday}</option>
+												<option value="6"{$repeats_5_weekday[6]}>{$lang->saturday}</option>
+											</select>
+											</span>
+											{$lang->of}
+											<span class="select-wrap">
+											<select name="repeats_5_month2" onfocus="$('repeats_5_type_2').checked=true;" >
+												<option value="1"{$repeats_5_month2['1']}>{$lang->month_1}</option>
+												<option value="2"{$repeats_5_month2['2']}>{$lang->month_2}</option>
+												<option value="3"{$repeats_5_month2['3']}>{$lang->month_3}</option>
+												<option value="4"{$repeats_5_month2['4']}>{$lang->month_4}</option>
+												<option value="5"{$repeats_5_month2['5']}>{$lang->month_5}</option>
+												<option value="6"{$repeats_5_month2['6']}>{$lang->month_6}</option>
+												<option value="7"{$repeats_5_month2['7']}>{$lang->month_7}</option>
+												<option value="8"{$repeats_5_month2['8']}>{$lang->month_8}</option>
+												<option value="9"{$repeats_5_month2['9']}>{$lang->month_9}</option>
+												<option value="10"{$repeats_5_month2['10']}>{$lang->month_10}</option>
+												<option value="11"{$repeats_5_month2['11']}>{$lang->month_11}</option>
+												<option value="12"{$repeats_5_month2['12']}>{$lang->month_12}</option>
+											</select>
+											</span>
+											{$lang->every}
+											<input type="text" class="textbox" name="repeats_5_years2" value="{$repeats_5_years}" size="2" onfocus="$('repeats_5_type_2').checked=true;" /> {$lang->year_or_years}
+										</div>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</dd>
+				</dl>
+				<script type="text/javascript">
+				<!--
+					toggleType();
+					toggleRepeats();
+				// -->
+				</script>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" width="20%" class="trow1"><strong>{$lang->event_details}</strong>{$smilieinserter}</td>
+			<td class="trow1"><textarea name="description" id="message" rows="20" cols="70">{$description}</textarea>
+			{$codebuttons}</td>
+		</tr>
+		<tr>
+			<td width="20%" class="trow2"><strong>{$lang->event_options}</strong></td>
+			<td class="trow2">
+				<input type="checkbox" class="checkbox" name="private" value="1"{$privatecheck} /><span class="smalltext">{$lang->private_option}</span><br />
+			</td>
+		</tr>
+	</table>
+	<br />
+	<input type="hidden" name="action" value="do_editevent" />
+	<input type="hidden" name="eid" value="{$event['eid']}" />
+	<div align="center"><input type="submit" class="button" value="{$lang->edit_event}" /></div>
+</form>
+{$footer}
+</body>
+</html>]]></template>
+		<template name="calendar_event_modoptions" version="1829"><![CDATA[				<form method="post" action="calendar.php">
+					<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+					<input type="hidden" name="eid" value="{$event['eid']}">
+					<span class="select-wrap">
+					<select name="action" onchange="if(this.options[this.selectedIndex].value != '') { window.location=('calendar.php?action='+this.options[this.selectedIndex].value+'&amp;eid={$event['eid']}&amp;my_post_key={$mybb->post_code}') }">
+						<option value="" style="font-weight: bold;">{$lang->moderator_options}</option>
+						<option value="{$approve_value}">{$approve}</option>
+						<option value="move">{$lang->move_event}</option>
+					</select>
+					</span>
+					{$gobutton}
+				</form>
+				<br />]]></template>
 		<template name="footer" version="1820"><![CDATA[<!-- Back to Top -->
 <script type="text/javascript">
 $(function($) {
@@ -6087,6 +6792,11 @@ $(".forumjump").on('change', function() {
 	}
 });
 </script>]]></template>
+		<template name="forumjump_special" version="1829"><![CDATA[<span class="select-wrap">
+<select name="{$name}">
+{$forumjumpbits}
+</select>
+</span>]]></template>
 		<template name="header" version="1820"><![CDATA[<div id="container">
         <a name="top" id="top"></a>
         <div id="header">
@@ -7818,16 +8528,6 @@ if(use_xmlhttprequest == "1")
 </script>
 </body>
 </html>]]></template>
-		<template name="private_advanced_search_folders" version="1820"><![CDATA[<span class="select-wrap">
-<select multiple="multiple" name="folder[]" id="folder">
-<option selected="selected">{$lang->all_folders}</option>
-{$foldersearch_folder}
-</select></span>]]></template>
-		<template name="private_archive_folders" version="1820"><![CDATA[<span class="select-wrap">
-<select name="exportfolders[]" multiple="multiple">
-<option value="all" selected="selected">{$lang->all_folders}</option>
-{$folderlist_folder}
-</select></span>]]></template>
 		<template name="private_jump_folders" version="1820"><![CDATA[<span class="select-wrap">
 <select name="jumpto">
 {$folderjump_folder}
@@ -8147,7 +8847,7 @@ if(use_xmlhttprequest == "1")
 <td class="{$optionbg}" width="70" align="center">{$votes}</td>
 <td class="{$optionbg}" width="30" align="center">{$percent}%</td>
 </tr>]]></template>
-		<template name="showthread_quickreply" version="1819"><![CDATA[<div id="quickreply_spinner" class="showthread_spinner" style="display: none"><img src="{$theme['imgdir']}/spinner.gif" style="display: none;" /><i class="fa-solid fa-spinner fa-spin"></i></div>
+		<template name="showthread_quickreply" version="1829"><![CDATA[<div id="quickreply_spinner" class="showthread_spinner" style="display: none"><img src="{$theme['imgdir']}/spinner.gif" style="display: none;" /><i class="fa-solid fa-spinner fa-spin"></i></div>
 <br />
 {$moderation_notice}
 <form method="post" action="newreply.php?tid={$tid}&amp;processed=1" name="quick_reply_form" id="quick_reply_form">
