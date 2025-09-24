@@ -3,7 +3,7 @@
 FA6 v1.1
 » About:
 
-Current FA 6 library: fontawesome-free-6.1.1
+Current FA 6 library: fontawesome-free-6.7.2
 
 * Note: this theme is and will be a work in progress not just due to various continuations and improvements needed to be made as planned eventually in the FA5 versions but as this is a FA6 conversion of that past FA5 theme we must also factor that currently Font Awesome 6 release is just out of beta and now on initial release
 
@@ -36,6 +36,8 @@ FA6 v1.1
 » Changelog:
 
 History:
+
+09/23/2025 - Theme .xml file created for mybb 1.8.39 usage
 
 03/16/2022 - Theme .xml file created for mybb 1.8.30 usage
 
