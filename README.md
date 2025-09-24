@@ -15,15 +15,15 @@ This theme for MyBB enthusiasts was originally made in FA5 version simply to all
 FA6 v1.1
 » Installation:
 
-1.) After downloading the Theme unpack it (with 7-Zip for example)
+* 1.) After downloading the Theme unpack it (with 7-Zip for example)
 
-2.) Upload the contents of "Upload" into your forums main directory.
+* 2.) Upload the contents of "Upload" into your forums main directory.
 
-3.) Go to the Admin Control Panel under Themes > Import
+* 3.) Go to the Admin Control Panel under Themes > Import
 
-4.) Search for the XML File titled "FA6-theme.xml" in the theme folder found on your computer and click the Button "Import Theme" this will upload the file from your computer to your forum.
+* 4.) Search for the XML File titled "FA6-theme.xml" in the theme folder found on your computer and click the Button "Import Theme" this will upload the file from your computer to your forum.
 
-5.) Now have fun with your forum!
+* 5.) Now have fun with your forum!
 
 FA6 v1.1
 » License:
@@ -37,12 +37,12 @@ FA6 v1.1
 
 History:
 
-09/23/2025 - Theme .xml file created for mybb 1.8.39 usage
+- 09/23/2025 - Theme .xml file created for mybb 1.8.39 usage
 
-03/16/2022 - Theme .xml file created for mybb 1.8.30 usage
+- 03/16/2022 - Theme .xml file created for mybb 1.8.30 usage
 
-01/30/2022 - Theme .xml version 1.1 file created for mybb 1.8.29 usage
+- 01/30/2022 - Theme .xml version 1.1 file created for mybb 1.8.29 usage
 
-01/30/2022 - Theme .xml version 1.0 file created for mybb 1.8.29 usage
+- 01/30/2022 - Theme .xml version 1.0 file created for mybb 1.8.29 usage
 
-01/30/2022 — Theme initial conversion from FA5 to FA6 creation
+- 01/30/2022 — Theme initial conversion from FA5 to FA6 creation
