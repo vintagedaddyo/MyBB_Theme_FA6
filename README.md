@@ -7,7 +7,7 @@ Current FA 6 library: fontawesome-free-6.7.2
 
 * Original Note: this theme is and will be a work in progress not just due to various continuations and improvements needed to be made as planned eventually in the FA5 versions but as this is a FA6 conversion of that past FA5 theme we must also factor that currently Font Awesome 6 release is just out of beta and now on initial release
 
-* New Note: Inluded Font Awesome 6 release updated to current: fontawesome-free-6.7.2
+* New Note: Included Font Awesome 6 release updated to current: fontawesome-free-6.7.2
 
 This theme for MyBB enthusiasts was originally made in FA5 version simply to allow for users having troubles with the Font Awesome 5 tutorials provided and found here: https://community.mybb.com/thread-220017.html This theme has now been converted to Font Awesome 6
 
