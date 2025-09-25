@@ -945,7 +945,7 @@ i.logout {
 font-size: 36px;
 }
 
-/** Gid CSS FA 5 Username Icon Postbit & Profile & Memberlist by Vintagedaddyo **/
+/** Gid CSS FA 6 Username Icon Postbit & Profile & Memberlist by Vintagedaddyo **/
 
 .titletag {
    display: inline-block;
@@ -973,7 +973,7 @@ font-size: 36px;
    color: #0072BF;
 }
 
-/** Usergroup star rating - FontAwesome 5 **/
+/** Usergroup star rating - FontAwesome 6 **/
 
 .userstar {
    font-family: "Font Awesome 6 Free";
@@ -2187,7 +2187,7 @@ div.error ul {
 	color: #777;
 }
 
-/** Scalable Postbit Buttons FA 5 **/
+/** Scalable Postbit Buttons FA 6 **/
 
 @media (max-width:768px)  {
 .post_controls {
@@ -3755,7 +3755,7 @@ td[class^=trow]{
  * 
  */
 
-/** Pure CSS & FA 5 Star Rating By Johnny S & Vintagedaddyo **/
+/** Pure CSS & FA 6 Star Rating By Johnny S & Vintagedaddyo **/
 
  .star_rating_container {
      display: inline-block;
